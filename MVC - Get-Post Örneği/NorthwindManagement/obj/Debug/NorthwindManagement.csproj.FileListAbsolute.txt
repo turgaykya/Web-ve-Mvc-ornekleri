@@ -1,0 +1,67 @@
+c:\users\ba\documents\visual studio 2013\Projects\Lecture_161115\NorthwindManagement\bin\NorthwindManagement.dll.config
+c:\users\ba\documents\visual studio 2013\Projects\Lecture_161115\NorthwindManagement\bin\NorthwindManagement.dll
+c:\users\ba\documents\visual studio 2013\Projects\Lecture_161115\NorthwindManagement\bin\NorthwindManagement.pdb
+c:\users\ba\documents\visual studio 2013\Projects\Lecture_161115\NorthwindManagement\bin\EntityFramework.dll
+c:\users\ba\documents\visual studio 2013\Projects\Lecture_161115\NorthwindManagement\bin\EntityFramework.SqlServer.dll
+c:\users\ba\documents\visual studio 2013\Projects\Lecture_161115\NorthwindManagement\bin\System.Web.Helpers.dll
+c:\users\ba\documents\visual studio 2013\Projects\Lecture_161115\NorthwindManagement\bin\System.Web.Mvc.dll
+c:\users\ba\documents\visual studio 2013\Projects\Lecture_161115\NorthwindManagement\bin\System.Web.Razor.dll
+c:\users\ba\documents\visual studio 2013\Projects\Lecture_161115\NorthwindManagement\bin\System.Web.Webpages.Deployment.dll
+c:\users\ba\documents\visual studio 2013\Projects\Lecture_161115\NorthwindManagement\bin\System.Web.Webpages.dll
+c:\users\ba\documents\visual studio 2013\Projects\Lecture_161115\NorthwindManagement\bin\System.Web.Webpages.Razor.dll
+c:\users\ba\documents\visual studio 2013\Projects\Lecture_161115\NorthwindManagement\bin\EntityFramework.xml
+c:\users\ba\documents\visual studio 2013\Projects\Lecture_161115\NorthwindManagement\bin\EntityFramework.SqlServer.xml
+c:\users\ba\documents\visual studio 2013\Projects\Lecture_161115\NorthwindManagement\bin\System.Web.Razor.xml
+c:\users\ba\documents\visual studio 2013\Projects\Lecture_161115\NorthwindManagement\bin\System.Web.Webpages.xml
+c:\users\ba\documents\visual studio 2013\Projects\Lecture_161115\NorthwindManagement\bin\System.Web.Webpages.Deployment.xml
+c:\users\ba\documents\visual studio 2013\Projects\Lecture_161115\NorthwindManagement\bin\System.Web.Webpages.Razor.xml
+c:\users\ba\documents\visual studio 2013\Projects\Lecture_161115\NorthwindManagement\bin\System.Web.Helpers.xml
+c:\users\ba\documents\visual studio 2013\Projects\Lecture_161115\NorthwindManagement\bin\System.Web.Mvc.xml
+c:\users\ba\documents\visual studio 2013\Projects\Lecture_161115\NorthwindManagement\obj\Debug\NorthwindManagement.dll
+c:\users\ba\documents\visual studio 2013\Projects\Lecture_161115\NorthwindManagement\obj\Debug\NorthwindManagement.pdb
+c:\users\ba\documents\visual studio 2013\Projects\Lecture_161115\NorthwindManagement\obj\Debug\NorthwindManagement.csprojResolveAssemblyReference.cache
+C:\Users\BURAK\Desktop\Lecture_161115\NorthwindManagement\bin\NorthwindManagement.dll.config
+C:\Users\BURAK\Desktop\Lecture_161115\NorthwindManagement\bin\NorthwindManagement.dll
+C:\Users\BURAK\Desktop\Lecture_161115\NorthwindManagement\bin\NorthwindManagement.pdb
+C:\Users\BURAK\Desktop\Lecture_161115\NorthwindManagement\bin\EntityFramework.dll
+C:\Users\BURAK\Desktop\Lecture_161115\NorthwindManagement\bin\EntityFramework.SqlServer.dll
+C:\Users\BURAK\Desktop\Lecture_161115\NorthwindManagement\bin\System.Web.Helpers.dll
+C:\Users\BURAK\Desktop\Lecture_161115\NorthwindManagement\bin\System.Web.Mvc.dll
+C:\Users\BURAK\Desktop\Lecture_161115\NorthwindManagement\bin\System.Web.Razor.dll
+C:\Users\BURAK\Desktop\Lecture_161115\NorthwindManagement\bin\System.Web.Webpages.Deployment.dll
+C:\Users\BURAK\Desktop\Lecture_161115\NorthwindManagement\bin\System.Web.Webpages.dll
+C:\Users\BURAK\Desktop\Lecture_161115\NorthwindManagement\bin\System.Web.Webpages.Razor.dll
+C:\Users\BURAK\Desktop\Lecture_161115\NorthwindManagement\bin\EntityFramework.xml
+C:\Users\BURAK\Desktop\Lecture_161115\NorthwindManagement\bin\EntityFramework.SqlServer.xml
+C:\Users\BURAK\Desktop\Lecture_161115\NorthwindManagement\bin\System.Web.Razor.xml
+C:\Users\BURAK\Desktop\Lecture_161115\NorthwindManagement\bin\System.Web.Webpages.xml
+C:\Users\BURAK\Desktop\Lecture_161115\NorthwindManagement\bin\System.Web.Webpages.Deployment.xml
+C:\Users\BURAK\Desktop\Lecture_161115\NorthwindManagement\bin\System.Web.Webpages.Razor.xml
+C:\Users\BURAK\Desktop\Lecture_161115\NorthwindManagement\bin\System.Web.Helpers.xml
+C:\Users\BURAK\Desktop\Lecture_161115\NorthwindManagement\bin\System.Web.Mvc.xml
+C:\Users\BURAK\Desktop\Lecture_161115\NorthwindManagement\obj\Debug\NorthwindManagement.csprojResolveAssemblyReference.cache
+C:\Users\BURAK\Desktop\Lecture_161115\NorthwindManagement\obj\Debug\NorthwindManagement.dll
+C:\Users\BURAK\Desktop\Lecture_161115\NorthwindManagement\obj\Debug\NorthwindManagement.pdb
+C:\Users\BURAK\Desktop\mvc_dbFirst_CRUD\NorthwindManagement\bin\NorthwindManagement.dll.config
+C:\Users\BURAK\Desktop\mvc_dbFirst_CRUD\NorthwindManagement\bin\NorthwindManagement.dll
+C:\Users\BURAK\Desktop\mvc_dbFirst_CRUD\NorthwindManagement\bin\NorthwindManagement.pdb
+C:\Users\BURAK\Desktop\mvc_dbFirst_CRUD\NorthwindManagement\bin\EntityFramework.dll
+C:\Users\BURAK\Desktop\mvc_dbFirst_CRUD\NorthwindManagement\bin\EntityFramework.SqlServer.dll
+C:\Users\BURAK\Desktop\mvc_dbFirst_CRUD\NorthwindManagement\bin\System.Web.Helpers.dll
+C:\Users\BURAK\Desktop\mvc_dbFirst_CRUD\NorthwindManagement\bin\System.Web.Mvc.dll
+C:\Users\BURAK\Desktop\mvc_dbFirst_CRUD\NorthwindManagement\bin\System.Web.Razor.dll
+C:\Users\BURAK\Desktop\mvc_dbFirst_CRUD\NorthwindManagement\bin\System.Web.Webpages.Deployment.dll
+C:\Users\BURAK\Desktop\mvc_dbFirst_CRUD\NorthwindManagement\bin\System.Web.Webpages.dll
+C:\Users\BURAK\Desktop\mvc_dbFirst_CRUD\NorthwindManagement\bin\System.Web.Webpages.Razor.dll
+C:\Users\BURAK\Desktop\mvc_dbFirst_CRUD\NorthwindManagement\bin\EntityFramework.xml
+C:\Users\BURAK\Desktop\mvc_dbFirst_CRUD\NorthwindManagement\bin\EntityFramework.SqlServer.xml
+C:\Users\BURAK\Desktop\mvc_dbFirst_CRUD\NorthwindManagement\bin\System.Web.Razor.xml
+C:\Users\BURAK\Desktop\mvc_dbFirst_CRUD\NorthwindManagement\bin\System.Web.Webpages.xml
+C:\Users\BURAK\Desktop\mvc_dbFirst_CRUD\NorthwindManagement\bin\System.Web.Webpages.Deployment.xml
+C:\Users\BURAK\Desktop\mvc_dbFirst_CRUD\NorthwindManagement\bin\System.Web.Webpages.Razor.xml
+C:\Users\BURAK\Desktop\mvc_dbFirst_CRUD\NorthwindManagement\bin\System.Web.Helpers.xml
+C:\Users\BURAK\Desktop\mvc_dbFirst_CRUD\NorthwindManagement\bin\System.Web.Mvc.xml
+C:\Users\BURAK\Desktop\mvc_dbFirst_CRUD\NorthwindManagement\obj\Debug\NorthwindManagement.csprojResolveAssemblyReference.cache
+C:\Users\BURAK\Desktop\mvc_dbFirst_CRUD\NorthwindManagement\obj\Debug\NorthwindManagement.dll
+C:\Users\BURAK\Desktop\mvc_dbFirst_CRUD\NorthwindManagement\obj\Debug\NorthwindManagement.pdb
+C:\Users\BURAK\Desktop\mvc_dbFirst_CRUD\NorthwindManagement\bin\Microsoft.Web.Infrastructure.dll

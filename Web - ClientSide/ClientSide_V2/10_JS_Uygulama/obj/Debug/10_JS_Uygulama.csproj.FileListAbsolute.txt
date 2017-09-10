@@ -1,0 +1,12 @@
+C:\Users\BURAK\Desktop\ClientSide_V22\10_JS_Uygulama\bin\10_JS_Uygulama.dll.config
+C:\Users\BURAK\Desktop\ClientSide_V22\10_JS_Uygulama\bin\10_JS_Uygulama.dll
+C:\Users\BURAK\Desktop\ClientSide_V22\10_JS_Uygulama\bin\10_JS_Uygulama.pdb
+C:\Users\BURAK\Desktop\ClientSide_V22\10_JS_Uygulama\obj\Debug\10_JS_Uygulama.csprojResolveAssemblyReference.cache
+C:\Users\BURAK\Desktop\ClientSide_V22\10_JS_Uygulama\obj\Debug\10_JS_Uygulama.dll
+C:\Users\BURAK\Desktop\ClientSide_V22\10_JS_Uygulama\obj\Debug\10_JS_Uygulama.pdb
+C:\Users\BA\Desktop\ClientSide_V2\10_JS_Uygulama\bin\10_JS_Uygulama.dll.config
+C:\Users\BA\Desktop\ClientSide_V2\10_JS_Uygulama\bin\10_JS_Uygulama.dll
+C:\Users\BA\Desktop\ClientSide_V2\10_JS_Uygulama\bin\10_JS_Uygulama.pdb
+C:\Users\BA\Desktop\ClientSide_V2\10_JS_Uygulama\obj\Debug\10_JS_Uygulama.csprojResolveAssemblyReference.cache
+C:\Users\BA\Desktop\ClientSide_V2\10_JS_Uygulama\obj\Debug\10_JS_Uygulama.dll
+C:\Users\BA\Desktop\ClientSide_V2\10_JS_Uygulama\obj\Debug\10_JS_Uygulama.pdb

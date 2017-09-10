@@ -1,0 +1,24 @@
+﻿@using EmployeeManagement.EF.Entities
+
+@{
+    ViewBag.Title = "Add";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Departman Ekle</h2>
+
+@using (Html.BeginForm("Add", "Department", FormMethod.Post))
+{
+    <div class="form-group">
+        <label class="form-group">Departman Adı</label>
+        <input type="text" name="Name" id="name" class="form-control" />
+
+    </div>
+    <div class="form-group">
+        <label class="form-group">Adı</label>
+        <textarea class="form-control" name="Description" id="description"></textarea>
+    </div>
+    <div class="form-group">
+        <button class="form-control">Kaydet</button>
+    </div>
+}

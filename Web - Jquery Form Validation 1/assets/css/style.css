@@ -1,0 +1,23 @@
+    article {
+        padding: 2%;
+        box-sizing: border-box;
+    }
+
+    textarea{
+       resize:vertical; 
+    }
+
+    .borderRed{
+        border: 1px solid red !important;
+    }
+
+    .mt-50{
+        margin-top: 50px;
+    }
+
+    .error{
+        font-weight: bold;
+        font-size: 1.5rem;
+        color: red;
+     
+    }

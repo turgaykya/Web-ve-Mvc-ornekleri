@@ -1,0 +1,75 @@
+﻿@using EmployeeManagement.EF.Entities
+@model Employee
+@{
+    ViewBag.Title = "Yeni Çalışan";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@if (Model.Id == 0)
+{
+    <h2>Yeni Çalışan</h2>
+}
+else
+{
+    <h2>Çalışan Güncelleme</h2>
+}
+
+@*@ViewData["Test"]*@
+
+@using (Html.BeginForm())
+{
+    <div class="form-group">
+        @Html.LabelFor(m => m.FirstName, "Adı")
+        @Html.TextBoxFor(m => m.FirstName, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.LastName, "Soyadı")
+        @Html.TextBoxFor(m => m.LastName, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.Gender, "Cinsiyeti")
+        @*@Html.EnumDropDownListFor(m => m.Gender, new { @class = "form-control" })*@
+        @Html.DropDownListFor(m => m.Gender, (SelectList)ViewBag.Genders, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.DateOfBirth, "DoğumTarihi")
+        @Html.TextBoxFor(m => m.DateOfBirth, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.DepartmentId, "Departmanı")
+        @Html.DropDownListFor(m => m.DepartmentId, (SelectList)ViewBag.Departments, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.Salary, "Maaşı")
+        @Html.TextBoxFor(m => m.Salary, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.HireDate, "İşe ALınma Tarihi")
+        @Html.TextBoxFor(m => m.HireDate, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.PhoneNumber, "Telefon Numarası")
+        @Html.TextBoxFor(m => m.PhoneNumber, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.EmailAddress, "Eposta Adresi")
+        @Html.TextBoxFor(m => m.EmailAddress, new { @class = "form-control" })
+    </div>
+
+    <div class="form-group">
+        <button class="btn btn-primary">
+            Tamam
+        </button>
+        @Html.ActionLink("İptal", "Index", null, new { @class = "btn btn-danger" })
+    </div>
+
+
+
+
+
+
+
+
+
+
+}

@@ -1,0 +1,114 @@
+﻿<html>
+<head>
+    <title>ilk CSS Sayfam</title>
+    <style>
+
+/*
+    Yorum Satırı (tek yorum satırı)
+*/
+        #header {
+            font-size: 40px;
+            text-align: center;/*yazılan yazıyı yatayda hizalamak için kullanılır (center yazıyı ortalar)*/
+            line-height:100px; /*Satır yüksekliğini header div'inin yüksekliği yaparak yazının ortalanmasını sağladık.*/
+        }
+
+        #container {
+            background-color:antiquewhite;
+            border: 1px solid black;
+            width: 600px;
+            height: 570px;
+            margin-top: 50px;
+            margin-left: 100px;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        #nav{
+            background-color:white;
+            width: 150px;
+            padding: 20px;
+            box-sizing: border-box;
+            margin-top: 20px;
+            height: 340px;
+            float: left;
+        }
+        #section{
+            width:380px;
+            background-color:white;
+            /**/
+            border: 1px dotted black;
+            float: left;
+            margin-top:20px;
+            margin-left:20px;
+            height:340px;  
+        }
+        #footer{
+            height: 50px;
+            margin-top:20px;
+            text-align: center;
+            line-height: 50px;
+            background-color: azure;
+        }
+
+
+    </style>
+</head>
+<body>
+    <!-- CSS : Cascading Style Sheets -->
+    <!--
+        CSS kodları 3 farklı yere yazılır :
+        1. Elementlerin içerisine attribute olarak yazılabilir. (inline style)
+        2. Style elementinin içerisine yazılabilir.
+        3. Harici bir CSS belgesine yazılabilir.
+         -->
+    <!--
+        Still nasıl yazılır:
+        prolerty-name : value;
+         -->
+
+    <!--
+        background-color : arka plan rengi için kullanılır
+        height : yükseklik değeri
+        width : genişlik değeri
+        margin : elementin dışındaki boşluğu belirtiriz
+        padding : elementin içindeki boşluğu belirtiriz
+        border : element sınır cizgilerini belirtiriz
+        font-size : yazı boyutunu pixel cinsinden veririz
+         -->
+
+    <div id="container">
+
+        <div id="header" style="background-color: gray; height:100px;"><!-- Inline Style -->
+            HEADER
+        </div>
+        <div id="nav"><!-- navigation -->
+            <ul>
+                <li><a href="#">Anasayfa</a></li>
+                <li><a href="#">Hakkımızda</a></li>
+                <li><a href="#">Ürünlerimiz</a></li>
+                <li><a href="#">İletişim</a></li>
+            </ul>
+        </div>
+        <div id="section">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ante mi, rhoncus non condimentum sit amet, tristique non velit. Nulla dignissim egestas sapien. Donec a sapien vitae mauris vestibulum malesuada ac at ligula. Duis quis feugiat lacus. Morbi sit amet felis quis urna aliquet vehicula. Vestibulum l
+            </p>
+
+            <p>
+                Donec et sapien at felis posuere dignissim. Nunc felis ex, posuere id commodo id, elementum sed nisl. Proin bibendum vitae mi sed viverra. Done
+            </p>
+        </div>
+        <div style="clear: both"> <!-- float'ın etkisini gidermek için kullandık. Sonrasında gelecek elementler için referans oluşturmuş olduk. -->
+
+        </div>
+        <div id="footer">
+            &nbsp;V-Class Project Developer Team
+        </div>
+    </div>
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,100 @@
+C:\TFS\LMSTS\DataAccess\bin\Debug\DataAccess.dll.config
+C:\TFS\LMSTS\DataAccess\bin\Debug\DataAccess.dll
+C:\TFS\LMSTS\DataAccess\bin\Debug\DataAccess.pdb
+C:\TFS\LMSTS\DataAccess\bin\Debug\01_Entities.dll
+C:\TFS\LMSTS\DataAccess\bin\Debug\EntityFramework.dll
+C:\TFS\LMSTS\DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\TFS\LMSTS\DataAccess\bin\Debug\01_Entities.pdb
+C:\TFS\LMSTS\DataAccess\bin\Debug\EntityFramework.xml
+C:\TFS\LMSTS\DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\TFS\LMSTS\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+C:\TFS\LMSTS\DataAccess\obj\Debug\DataAccess.Migrations.firstMigration.resources
+C:\TFS\LMSTS\DataAccess\obj\Debug\DataAccess.Migrations.secondMicration.resources
+C:\TFS\LMSTS\DataAccess\obj\Debug\DataAccess.Migrations.thirdMigration.resources
+C:\TFS\LMSTS\DataAccess\obj\Debug\DataAccess.csproj.GenerateResource.Cache
+C:\TFS\LMSTS\DataAccess\obj\Debug\DataAccess.dll
+C:\TFS\LMSTS\DataAccess\obj\Debug\DataAccess.pdb
+C:\TFS\LMSTS\DataAccess\obj\Debug\DataAccess.Migrations.fourthMigration.resources
+C:\TFS\LMSTS\DataAccess\obj\Debug\DataAccess.Migrations.fiveMigration.resources
+C:\TFS\LMSTS\DataAccess\obj\Debug\DataAccess.Migrations.CommentDateGuncellemesi.resources
+C:\TFS\LMSTS\DataAccess\obj\Debug\DataAccess.Migrations.TopicTestHeadNvarchar.resources
+C:\TFS\LMSTS\DataAccess\obj\Debug\DataAccess.Migrations.LoginIdMigration.resources
+C:\TFS\LMSTS\DataAccess\obj\Debug\DataAccess.Migrations.sixMigration.resources
+C:\TFS\LMSTS\DataAccess\obj\Debug\DataAccess.Migrations.sevenMigration.resources
+C:\TFS\LMSTS\DataAccess\obj\Debug\DataAccess.Migrations.hatalıprojeMigration.resources
+C:\TFS\LMSTS\DataAccess\obj\Debug\DataAccess.Migrations._firstMigration.resources
+C:\Users\BURAK\Desktop\LMSTS yedek\LMSTS\DataAccess\bin\Debug\DataAccess.dll.config
+C:\Users\BURAK\Desktop\LMSTS yedek\LMSTS\DataAccess\bin\Debug\DataAccess.dll
+C:\Users\BURAK\Desktop\LMSTS yedek\LMSTS\DataAccess\bin\Debug\DataAccess.pdb
+C:\Users\BURAK\Desktop\LMSTS yedek\LMSTS\DataAccess\bin\Debug\01_Entities.dll
+C:\Users\BURAK\Desktop\LMSTS yedek\LMSTS\DataAccess\bin\Debug\EntityFramework.dll
+C:\Users\BURAK\Desktop\LMSTS yedek\LMSTS\DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\BURAK\Desktop\LMSTS yedek\LMSTS\DataAccess\bin\Debug\01_Entities.pdb
+C:\Users\BURAK\Desktop\LMSTS yedek\LMSTS\DataAccess\bin\Debug\EntityFramework.xml
+C:\Users\BURAK\Desktop\LMSTS yedek\LMSTS\DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\BURAK\Desktop\LMSTS yedek\LMSTS\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\BURAK\Desktop\LMSTS yedek\LMSTS\DataAccess\obj\Debug\DataAccess.Migrations.firstMigration.resources
+C:\Users\BURAK\Desktop\LMSTS yedek\LMSTS\DataAccess\obj\Debug\DataAccess.Migrations.secondMicration.resources
+C:\Users\BURAK\Desktop\LMSTS yedek\LMSTS\DataAccess\obj\Debug\DataAccess.Migrations.thirdMigration.resources
+C:\Users\BURAK\Desktop\LMSTS yedek\LMSTS\DataAccess\obj\Debug\DataAccess.Migrations.fourthMigration.resources
+C:\Users\BURAK\Desktop\LMSTS yedek\LMSTS\DataAccess\obj\Debug\DataAccess.Migrations.fiveMigration.resources
+C:\Users\BURAK\Desktop\LMSTS yedek\LMSTS\DataAccess\obj\Debug\DataAccess.Migrations.CommentDateGuncellemesi.resources
+C:\Users\BURAK\Desktop\LMSTS yedek\LMSTS\DataAccess\obj\Debug\DataAccess.Migrations.TopicTestHeadNvarchar.resources
+C:\Users\BURAK\Desktop\LMSTS yedek\LMSTS\DataAccess\obj\Debug\DataAccess.Migrations.LoginIdMigration.resources
+C:\Users\BURAK\Desktop\LMSTS yedek\LMSTS\DataAccess\obj\Debug\DataAccess.Migrations.sixMigration.resources
+C:\Users\BURAK\Desktop\LMSTS yedek\LMSTS\DataAccess\obj\Debug\DataAccess.Migrations.sevenMigration.resources
+C:\Users\BURAK\Desktop\LMSTS yedek\LMSTS\DataAccess\obj\Debug\DataAccess.Migrations.hatalıprojeMigration.resources
+C:\Users\BURAK\Desktop\LMSTS yedek\LMSTS\DataAccess\obj\Debug\DataAccess.Migrations._firstMigration.resources
+C:\Users\BURAK\Desktop\LMSTS yedek\LMSTS\DataAccess\obj\Debug\DataAccess.csproj.GenerateResource.Cache
+C:\Users\BURAK\Desktop\LMSTS yedek\LMSTS\DataAccess\obj\Debug\DataAccess.dll
+C:\Users\BURAK\Desktop\LMSTS yedek\LMSTS\DataAccess\obj\Debug\DataAccess.pdb
+D:\BURAK\BİLİŞİM-YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\DataAccess\bin\Debug\DataAccess.dll.config
+D:\BURAK\BİLİŞİM-YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\DataAccess\bin\Debug\DataAccess.dll
+D:\BURAK\BİLİŞİM-YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\DataAccess\bin\Debug\DataAccess.pdb
+D:\BURAK\BİLİŞİM-YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\DataAccess\bin\Debug\01_Entities.dll
+D:\BURAK\BİLİŞİM-YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\DataAccess\bin\Debug\EntityFramework.dll
+D:\BURAK\BİLİŞİM-YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+D:\BURAK\BİLİŞİM-YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\DataAccess\bin\Debug\01_Entities.pdb
+D:\BURAK\BİLİŞİM-YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\DataAccess\bin\Debug\EntityFramework.xml
+D:\BURAK\BİLİŞİM-YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+D:\BURAK\BİLİŞİM-YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+D:\BURAK\BİLİŞİM-YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\DataAccess\obj\Debug\DataAccess.Migrations.firstMigration.resources
+D:\BURAK\BİLİŞİM-YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\DataAccess\obj\Debug\DataAccess.Migrations.secondMicration.resources
+D:\BURAK\BİLİŞİM-YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\DataAccess\obj\Debug\DataAccess.Migrations.thirdMigration.resources
+D:\BURAK\BİLİŞİM-YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\DataAccess\obj\Debug\DataAccess.Migrations.fourthMigration.resources
+D:\BURAK\BİLİŞİM-YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\DataAccess\obj\Debug\DataAccess.Migrations.fiveMigration.resources
+D:\BURAK\BİLİŞİM-YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\DataAccess\obj\Debug\DataAccess.Migrations.CommentDateGuncellemesi.resources
+D:\BURAK\BİLİŞİM-YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\DataAccess\obj\Debug\DataAccess.Migrations.TopicTestHeadNvarchar.resources
+D:\BURAK\BİLİŞİM-YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\DataAccess\obj\Debug\DataAccess.Migrations.LoginIdMigration.resources
+D:\BURAK\BİLİŞİM-YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\DataAccess\obj\Debug\DataAccess.Migrations.sixMigration.resources
+D:\BURAK\BİLİŞİM-YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\DataAccess\obj\Debug\DataAccess.Migrations.sevenMigration.resources
+D:\BURAK\BİLİŞİM-YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\DataAccess\obj\Debug\DataAccess.Migrations.hatalıprojeMigration.resources
+D:\BURAK\BİLİŞİM-YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\DataAccess\obj\Debug\DataAccess.Migrations._firstMigration.resources
+D:\BURAK\BİLİŞİM-YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\DataAccess\obj\Debug\DataAccess.csproj.GenerateResource.Cache
+D:\BURAK\BİLİŞİM-YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\DataAccess\obj\Debug\DataAccess.dll
+D:\BURAK\BİLİŞİM-YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\DataAccess\obj\Debug\DataAccess.pdb
+D:\BURAK\YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\DataAccess\bin\Debug\DataAccess.dll.config
+D:\BURAK\YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\DataAccess\bin\Debug\DataAccess.dll
+D:\BURAK\YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\DataAccess\bin\Debug\DataAccess.pdb
+D:\BURAK\YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\DataAccess\bin\Debug\01_Entities.dll
+D:\BURAK\YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\DataAccess\bin\Debug\EntityFramework.dll
+D:\BURAK\YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+D:\BURAK\YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\DataAccess\bin\Debug\01_Entities.pdb
+D:\BURAK\YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\DataAccess\bin\Debug\EntityFramework.xml
+D:\BURAK\YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+D:\BURAK\YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+D:\BURAK\YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\DataAccess\obj\Debug\DataAccess.Migrations.firstMigration.resources
+D:\BURAK\YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\DataAccess\obj\Debug\DataAccess.Migrations.secondMicration.resources
+D:\BURAK\YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\DataAccess\obj\Debug\DataAccess.Migrations.thirdMigration.resources
+D:\BURAK\YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\DataAccess\obj\Debug\DataAccess.Migrations.fourthMigration.resources
+D:\BURAK\YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\DataAccess\obj\Debug\DataAccess.Migrations.fiveMigration.resources
+D:\BURAK\YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\DataAccess\obj\Debug\DataAccess.Migrations.CommentDateGuncellemesi.resources
+D:\BURAK\YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\DataAccess\obj\Debug\DataAccess.Migrations.TopicTestHeadNvarchar.resources
+D:\BURAK\YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\DataAccess\obj\Debug\DataAccess.Migrations.LoginIdMigration.resources
+D:\BURAK\YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\DataAccess\obj\Debug\DataAccess.Migrations.sixMigration.resources
+D:\BURAK\YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\DataAccess\obj\Debug\DataAccess.Migrations.sevenMigration.resources
+D:\BURAK\YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\DataAccess\obj\Debug\DataAccess.Migrations.hatalıprojeMigration.resources
+D:\BURAK\YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\DataAccess\obj\Debug\DataAccess.Migrations._firstMigration.resources
+D:\BURAK\YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\DataAccess\obj\Debug\DataAccess.csproj.GenerateResource.Cache
+D:\BURAK\YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\DataAccess\obj\Debug\DataAccess.dll
+D:\BURAK\YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\DataAccess\obj\Debug\DataAccess.pdb

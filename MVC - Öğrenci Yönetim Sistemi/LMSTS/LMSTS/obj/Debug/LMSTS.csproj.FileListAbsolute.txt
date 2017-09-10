@@ -1,0 +1,225 @@
+C:\TFS\LMSTS\LMSTS\bin\ApplicationInsights.config
+C:\TFS\LMSTS\LMSTS\bin\roslyn\csc.exe
+C:\TFS\LMSTS\LMSTS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\TFS\LMSTS\LMSTS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\TFS\LMSTS\LMSTS\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\TFS\LMSTS\LMSTS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\TFS\LMSTS\LMSTS\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\TFS\LMSTS\LMSTS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\TFS\LMSTS\LMSTS\bin\roslyn\System.Collections.Immutable.dll
+C:\TFS\LMSTS\LMSTS\bin\roslyn\System.Reflection.Metadata.dll
+C:\TFS\LMSTS\LMSTS\bin\roslyn\vbc.exe
+C:\TFS\LMSTS\LMSTS\bin\roslyn\VBCSCompiler.exe
+C:\TFS\LMSTS\LMSTS\bin\roslyn\VBCSCompiler.exe.config
+C:\TFS\LMSTS\LMSTS\bin\LMSTS.dll.config
+C:\TFS\LMSTS\LMSTS\bin\LMSTS.dll
+C:\TFS\LMSTS\LMSTS\bin\LMSTS.pdb
+C:\TFS\LMSTS\LMSTS\bin\01_Entities.dll
+C:\TFS\LMSTS\LMSTS\bin\Business.dll
+C:\TFS\LMSTS\LMSTS\bin\EntityFramework.dll
+C:\TFS\LMSTS\LMSTS\bin\EntityFramework.SqlServer.dll
+C:\TFS\LMSTS\LMSTS\bin\Microsoft.AI.Agent.Intercept.dll
+C:\TFS\LMSTS\LMSTS\bin\Microsoft.AI.DependencyCollector.dll
+C:\TFS\LMSTS\LMSTS\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\TFS\LMSTS\LMSTS\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\TFS\LMSTS\LMSTS\bin\Microsoft.AI.Web.dll
+C:\TFS\LMSTS\LMSTS\bin\Microsoft.AI.WindowsServer.dll
+C:\TFS\LMSTS\LMSTS\bin\Microsoft.ApplicationInsights.dll
+C:\TFS\LMSTS\LMSTS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\TFS\LMSTS\LMSTS\bin\Microsoft.Web.Infrastructure.dll
+C:\TFS\LMSTS\LMSTS\bin\System.Web.Helpers.dll
+C:\TFS\LMSTS\LMSTS\bin\System.Web.Mvc.dll
+C:\TFS\LMSTS\LMSTS\bin\System.Web.Razor.dll
+C:\TFS\LMSTS\LMSTS\bin\System.Web.Webpages.Deployment.dll
+C:\TFS\LMSTS\LMSTS\bin\System.Web.Webpages.dll
+C:\TFS\LMSTS\LMSTS\bin\System.Web.Webpages.Razor.dll
+C:\TFS\LMSTS\LMSTS\bin\DataAccess.dll
+C:\TFS\LMSTS\LMSTS\bin\01_Entities.pdb
+C:\TFS\LMSTS\LMSTS\bin\Business.pdb
+C:\TFS\LMSTS\LMSTS\bin\EntityFramework.xml
+C:\TFS\LMSTS\LMSTS\bin\EntityFramework.SqlServer.xml
+C:\TFS\LMSTS\LMSTS\bin\Microsoft.AI.DependencyCollector.xml
+C:\TFS\LMSTS\LMSTS\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\TFS\LMSTS\LMSTS\bin\Microsoft.AI.Web.xml
+C:\TFS\LMSTS\LMSTS\bin\Microsoft.AI.WindowsServer.xml
+C:\TFS\LMSTS\LMSTS\bin\Microsoft.ApplicationInsights.xml
+C:\TFS\LMSTS\LMSTS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\TFS\LMSTS\LMSTS\bin\System.Web.Razor.xml
+C:\TFS\LMSTS\LMSTS\bin\System.Web.Webpages.xml
+C:\TFS\LMSTS\LMSTS\bin\System.Web.Webpages.Deployment.xml
+C:\TFS\LMSTS\LMSTS\bin\System.Web.Webpages.Razor.xml
+C:\TFS\LMSTS\LMSTS\bin\System.Web.Helpers.xml
+C:\TFS\LMSTS\LMSTS\bin\System.Web.Mvc.xml
+C:\TFS\LMSTS\LMSTS\bin\DataAccess.pdb
+C:\TFS\LMSTS\LMSTS\obj\Debug\LMSTS.csprojResolveAssemblyReference.cache
+C:\TFS\LMSTS\LMSTS\obj\Debug\LMSTS.dll
+C:\TFS\LMSTS\LMSTS\obj\Debug\LMSTS.pdb
+C:\Users\BURAK\Desktop\LMSTS yedek\LMSTS\LMSTS\bin\ApplicationInsights.config
+C:\Users\BURAK\Desktop\LMSTS yedek\LMSTS\LMSTS\bin\roslyn\csc.exe
+C:\Users\BURAK\Desktop\LMSTS yedek\LMSTS\LMSTS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\BURAK\Desktop\LMSTS yedek\LMSTS\LMSTS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\BURAK\Desktop\LMSTS yedek\LMSTS\LMSTS\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\BURAK\Desktop\LMSTS yedek\LMSTS\LMSTS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\BURAK\Desktop\LMSTS yedek\LMSTS\LMSTS\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\BURAK\Desktop\LMSTS yedek\LMSTS\LMSTS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\BURAK\Desktop\LMSTS yedek\LMSTS\LMSTS\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\BURAK\Desktop\LMSTS yedek\LMSTS\LMSTS\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\BURAK\Desktop\LMSTS yedek\LMSTS\LMSTS\bin\roslyn\vbc.exe
+C:\Users\BURAK\Desktop\LMSTS yedek\LMSTS\LMSTS\bin\roslyn\VBCSCompiler.exe
+C:\Users\BURAK\Desktop\LMSTS yedek\LMSTS\LMSTS\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\BURAK\Desktop\LMSTS yedek\LMSTS\LMSTS\bin\LMSTS.dll.config
+C:\Users\BURAK\Desktop\LMSTS yedek\LMSTS\LMSTS\bin\LMSTS.dll
+C:\Users\BURAK\Desktop\LMSTS yedek\LMSTS\LMSTS\bin\LMSTS.pdb
+C:\Users\BURAK\Desktop\LMSTS yedek\LMSTS\LMSTS\bin\01_Entities.dll
+C:\Users\BURAK\Desktop\LMSTS yedek\LMSTS\LMSTS\bin\Business.dll
+C:\Users\BURAK\Desktop\LMSTS yedek\LMSTS\LMSTS\bin\EntityFramework.dll
+C:\Users\BURAK\Desktop\LMSTS yedek\LMSTS\LMSTS\bin\EntityFramework.SqlServer.dll
+C:\Users\BURAK\Desktop\LMSTS yedek\LMSTS\LMSTS\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\BURAK\Desktop\LMSTS yedek\LMSTS\LMSTS\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\BURAK\Desktop\LMSTS yedek\LMSTS\LMSTS\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\BURAK\Desktop\LMSTS yedek\LMSTS\LMSTS\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\BURAK\Desktop\LMSTS yedek\LMSTS\LMSTS\bin\Microsoft.AI.Web.dll
+C:\Users\BURAK\Desktop\LMSTS yedek\LMSTS\LMSTS\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\BURAK\Desktop\LMSTS yedek\LMSTS\LMSTS\bin\Microsoft.ApplicationInsights.dll
+C:\Users\BURAK\Desktop\LMSTS yedek\LMSTS\LMSTS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\BURAK\Desktop\LMSTS yedek\LMSTS\LMSTS\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\BURAK\Desktop\LMSTS yedek\LMSTS\LMSTS\bin\System.Web.Helpers.dll
+C:\Users\BURAK\Desktop\LMSTS yedek\LMSTS\LMSTS\bin\System.Web.Mvc.dll
+C:\Users\BURAK\Desktop\LMSTS yedek\LMSTS\LMSTS\bin\System.Web.Razor.dll
+C:\Users\BURAK\Desktop\LMSTS yedek\LMSTS\LMSTS\bin\System.Web.Webpages.Deployment.dll
+C:\Users\BURAK\Desktop\LMSTS yedek\LMSTS\LMSTS\bin\System.Web.Webpages.dll
+C:\Users\BURAK\Desktop\LMSTS yedek\LMSTS\LMSTS\bin\System.Web.Webpages.Razor.dll
+C:\Users\BURAK\Desktop\LMSTS yedek\LMSTS\LMSTS\bin\DataAccess.dll
+C:\Users\BURAK\Desktop\LMSTS yedek\LMSTS\LMSTS\bin\01_Entities.pdb
+C:\Users\BURAK\Desktop\LMSTS yedek\LMSTS\LMSTS\bin\Business.pdb
+C:\Users\BURAK\Desktop\LMSTS yedek\LMSTS\LMSTS\bin\EntityFramework.xml
+C:\Users\BURAK\Desktop\LMSTS yedek\LMSTS\LMSTS\bin\EntityFramework.SqlServer.xml
+C:\Users\BURAK\Desktop\LMSTS yedek\LMSTS\LMSTS\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\BURAK\Desktop\LMSTS yedek\LMSTS\LMSTS\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\BURAK\Desktop\LMSTS yedek\LMSTS\LMSTS\bin\Microsoft.AI.Web.xml
+C:\Users\BURAK\Desktop\LMSTS yedek\LMSTS\LMSTS\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\BURAK\Desktop\LMSTS yedek\LMSTS\LMSTS\bin\Microsoft.ApplicationInsights.xml
+C:\Users\BURAK\Desktop\LMSTS yedek\LMSTS\LMSTS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\BURAK\Desktop\LMSTS yedek\LMSTS\LMSTS\bin\System.Web.Razor.xml
+C:\Users\BURAK\Desktop\LMSTS yedek\LMSTS\LMSTS\bin\System.Web.Webpages.xml
+C:\Users\BURAK\Desktop\LMSTS yedek\LMSTS\LMSTS\bin\System.Web.Webpages.Deployment.xml
+C:\Users\BURAK\Desktop\LMSTS yedek\LMSTS\LMSTS\bin\System.Web.Webpages.Razor.xml
+C:\Users\BURAK\Desktop\LMSTS yedek\LMSTS\LMSTS\bin\System.Web.Helpers.xml
+C:\Users\BURAK\Desktop\LMSTS yedek\LMSTS\LMSTS\bin\System.Web.Mvc.xml
+C:\Users\BURAK\Desktop\LMSTS yedek\LMSTS\LMSTS\bin\DataAccess.pdb
+C:\Users\BURAK\Desktop\LMSTS yedek\LMSTS\LMSTS\obj\Debug\LMSTS.csprojResolveAssemblyReference.cache
+C:\Users\BURAK\Desktop\LMSTS yedek\LMSTS\LMSTS\obj\Debug\LMSTS.dll
+C:\Users\BURAK\Desktop\LMSTS yedek\LMSTS\LMSTS\obj\Debug\LMSTS.pdb
+D:\BURAK\BİLİŞİM-YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\bin\ApplicationInsights.config
+D:\BURAK\BİLİŞİM-YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\bin\roslyn\csc.exe
+D:\BURAK\BİLİŞİM-YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\BURAK\BİLİŞİM-YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\BURAK\BİLİŞİM-YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\BURAK\BİLİŞİM-YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\BURAK\BİLİŞİM-YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\BURAK\BİLİŞİM-YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\BURAK\BİLİŞİM-YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\bin\roslyn\System.Collections.Immutable.dll
+D:\BURAK\BİLİŞİM-YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\bin\roslyn\System.Reflection.Metadata.dll
+D:\BURAK\BİLİŞİM-YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\bin\roslyn\vbc.exe
+D:\BURAK\BİLİŞİM-YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\bin\roslyn\VBCSCompiler.exe
+D:\BURAK\BİLİŞİM-YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\bin\roslyn\VBCSCompiler.exe.config
+D:\BURAK\BİLİŞİM-YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\bin\LMSTS.dll.config
+D:\BURAK\BİLİŞİM-YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\bin\LMSTS.dll
+D:\BURAK\BİLİŞİM-YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\bin\LMSTS.pdb
+D:\BURAK\BİLİŞİM-YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\bin\01_Entities.dll
+D:\BURAK\BİLİŞİM-YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\bin\Business.dll
+D:\BURAK\BİLİŞİM-YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\bin\EntityFramework.dll
+D:\BURAK\BİLİŞİM-YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\bin\EntityFramework.SqlServer.dll
+D:\BURAK\BİLİŞİM-YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\bin\Microsoft.AI.Agent.Intercept.dll
+D:\BURAK\BİLİŞİM-YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\bin\Microsoft.AI.DependencyCollector.dll
+D:\BURAK\BİLİŞİM-YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\BURAK\BİLİŞİM-YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\BURAK\BİLİŞİM-YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\bin\Microsoft.AI.Web.dll
+D:\BURAK\BİLİŞİM-YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\bin\Microsoft.AI.WindowsServer.dll
+D:\BURAK\BİLİŞİM-YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\bin\Microsoft.ApplicationInsights.dll
+D:\BURAK\BİLİŞİM-YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\BURAK\BİLİŞİM-YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\bin\Microsoft.Web.Infrastructure.dll
+D:\BURAK\BİLİŞİM-YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\bin\System.Web.Helpers.dll
+D:\BURAK\BİLİŞİM-YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\bin\System.Web.Mvc.dll
+D:\BURAK\BİLİŞİM-YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\bin\System.Web.Razor.dll
+D:\BURAK\BİLİŞİM-YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\bin\System.Web.Webpages.Deployment.dll
+D:\BURAK\BİLİŞİM-YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\bin\System.Web.Webpages.dll
+D:\BURAK\BİLİŞİM-YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\bin\System.Web.Webpages.Razor.dll
+D:\BURAK\BİLİŞİM-YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\bin\DataAccess.dll
+D:\BURAK\BİLİŞİM-YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\bin\01_Entities.pdb
+D:\BURAK\BİLİŞİM-YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\bin\Business.pdb
+D:\BURAK\BİLİŞİM-YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\bin\EntityFramework.xml
+D:\BURAK\BİLİŞİM-YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\bin\EntityFramework.SqlServer.xml
+D:\BURAK\BİLİŞİM-YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\bin\Microsoft.AI.DependencyCollector.xml
+D:\BURAK\BİLİŞİM-YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\BURAK\BİLİŞİM-YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\bin\Microsoft.AI.Web.xml
+D:\BURAK\BİLİŞİM-YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\bin\Microsoft.AI.WindowsServer.xml
+D:\BURAK\BİLİŞİM-YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\bin\Microsoft.ApplicationInsights.xml
+D:\BURAK\BİLİŞİM-YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\BURAK\BİLİŞİM-YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\bin\System.Web.Razor.xml
+D:\BURAK\BİLİŞİM-YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\bin\System.Web.Webpages.xml
+D:\BURAK\BİLİŞİM-YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\bin\System.Web.Webpages.Deployment.xml
+D:\BURAK\BİLİŞİM-YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\bin\System.Web.Webpages.Razor.xml
+D:\BURAK\BİLİŞİM-YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\bin\System.Web.Helpers.xml
+D:\BURAK\BİLİŞİM-YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\bin\System.Web.Mvc.xml
+D:\BURAK\BİLİŞİM-YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\bin\DataAccess.pdb
+D:\BURAK\BİLİŞİM-YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\obj\Debug\LMSTS.csprojResolveAssemblyReference.cache
+D:\BURAK\BİLİŞİM-YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\obj\Debug\LMSTS.dll
+D:\BURAK\BİLİŞİM-YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\obj\Debug\LMSTS.pdb
+D:\BURAK\YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\bin\ApplicationInsights.config
+D:\BURAK\YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\bin\roslyn\csc.exe
+D:\BURAK\YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\BURAK\YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\BURAK\YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\BURAK\YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\BURAK\YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\BURAK\YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\BURAK\YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\bin\roslyn\System.Collections.Immutable.dll
+D:\BURAK\YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\bin\roslyn\System.Reflection.Metadata.dll
+D:\BURAK\YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\bin\roslyn\vbc.exe
+D:\BURAK\YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\bin\roslyn\VBCSCompiler.exe
+D:\BURAK\YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\bin\roslyn\VBCSCompiler.exe.config
+D:\BURAK\YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\bin\LMSTS.dll.config
+D:\BURAK\YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\bin\LMSTS.dll
+D:\BURAK\YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\bin\LMSTS.pdb
+D:\BURAK\YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\bin\01_Entities.dll
+D:\BURAK\YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\bin\Business.dll
+D:\BURAK\YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\bin\EntityFramework.dll
+D:\BURAK\YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\bin\EntityFramework.SqlServer.dll
+D:\BURAK\YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\bin\Microsoft.AI.Agent.Intercept.dll
+D:\BURAK\YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\bin\Microsoft.AI.DependencyCollector.dll
+D:\BURAK\YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\BURAK\YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\BURAK\YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\bin\Microsoft.AI.Web.dll
+D:\BURAK\YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\bin\Microsoft.AI.WindowsServer.dll
+D:\BURAK\YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\bin\Microsoft.ApplicationInsights.dll
+D:\BURAK\YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\BURAK\YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\bin\Microsoft.Web.Infrastructure.dll
+D:\BURAK\YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\bin\System.Web.Helpers.dll
+D:\BURAK\YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\bin\System.Web.Mvc.dll
+D:\BURAK\YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\bin\System.Web.Razor.dll
+D:\BURAK\YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\bin\System.Web.Webpages.Deployment.dll
+D:\BURAK\YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\bin\System.Web.Webpages.dll
+D:\BURAK\YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\bin\System.Web.Webpages.Razor.dll
+D:\BURAK\YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\bin\DataAccess.dll
+D:\BURAK\YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\bin\01_Entities.pdb
+D:\BURAK\YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\bin\Business.pdb
+D:\BURAK\YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\bin\EntityFramework.xml
+D:\BURAK\YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\bin\EntityFramework.SqlServer.xml
+D:\BURAK\YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\bin\Microsoft.AI.DependencyCollector.xml
+D:\BURAK\YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\BURAK\YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\bin\Microsoft.AI.Web.xml
+D:\BURAK\YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\bin\Microsoft.AI.WindowsServer.xml
+D:\BURAK\YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\bin\Microsoft.ApplicationInsights.xml
+D:\BURAK\YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\BURAK\YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\bin\System.Web.Razor.xml
+D:\BURAK\YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\bin\System.Web.Webpages.xml
+D:\BURAK\YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\bin\System.Web.Webpages.Deployment.xml
+D:\BURAK\YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\bin\System.Web.Webpages.Razor.xml
+D:\BURAK\YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\bin\System.Web.Helpers.xml
+D:\BURAK\YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\bin\System.Web.Mvc.xml
+D:\BURAK\YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\bin\DataAccess.pdb
+D:\BURAK\YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\bin\DataAccess.dll.config
+D:\BURAK\YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\obj\Debug\LMSTS.csprojResolveAssemblyReference.cache
+D:\BURAK\YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\obj\Debug\LMSTS.dll
+D:\BURAK\YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\LMSTS\obj\Debug\LMSTS.pdb

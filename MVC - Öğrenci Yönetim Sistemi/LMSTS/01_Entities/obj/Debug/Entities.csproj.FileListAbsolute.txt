@@ -1,0 +1,10 @@
+C:\TFS\LMSTS\01_Entities\bin\Debug\01_Entities.dll
+C:\TFS\LMSTS\01_Entities\bin\Debug\01_Entities.pdb
+C:\TFS\LMSTS\01_Entities\obj\Debug\Entities.csprojResolveAssemblyReference.cache
+C:\TFS\LMSTS\01_Entities\obj\Debug\01_Entities.dll
+C:\TFS\LMSTS\01_Entities\obj\Debug\01_Entities.pdb
+D:\BURAK\YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\01_Entities\bin\Debug\01_Entities.dll
+D:\BURAK\YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\01_Entities\bin\Debug\01_Entities.pdb
+D:\BURAK\YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\01_Entities\obj\Debug\Entities.csprojResolveAssemblyReference.cache
+D:\BURAK\YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\01_Entities\obj\Debug\01_Entities.dll
+D:\BURAK\YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\01_Entities\obj\Debug\01_Entities.pdb

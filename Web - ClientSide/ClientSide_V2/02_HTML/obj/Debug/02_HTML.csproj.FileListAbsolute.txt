@@ -1,0 +1,12 @@
+c:\users\ba\documents\visual studio 2013\Projects\ClientSide_V2\02_HTML\bin\02_HTML.dll.config
+c:\users\ba\documents\visual studio 2013\Projects\ClientSide_V2\02_HTML\bin\02_HTML.dll
+c:\users\ba\documents\visual studio 2013\Projects\ClientSide_V2\02_HTML\bin\02_HTML.pdb
+c:\users\ba\documents\visual studio 2013\Projects\ClientSide_V2\02_HTML\obj\Debug\02_HTML.csprojResolveAssemblyReference.cache
+c:\users\ba\documents\visual studio 2013\Projects\ClientSide_V2\02_HTML\obj\Debug\02_HTML.dll
+c:\users\ba\documents\visual studio 2013\Projects\ClientSide_V2\02_HTML\obj\Debug\02_HTML.pdb
+C:\Users\BURAK\Desktop\ClientSide_V2\02_HTML\bin\02_HTML.dll.config
+C:\Users\BURAK\Desktop\ClientSide_V2\02_HTML\bin\02_HTML.dll
+C:\Users\BURAK\Desktop\ClientSide_V2\02_HTML\bin\02_HTML.pdb
+C:\Users\BURAK\Desktop\ClientSide_V2\02_HTML\obj\Debug\02_HTML.csprojResolveAssemblyReference.cache
+C:\Users\BURAK\Desktop\ClientSide_V2\02_HTML\obj\Debug\02_HTML.dll
+C:\Users\BURAK\Desktop\ClientSide_V2\02_HTML\obj\Debug\02_HTML.pdb

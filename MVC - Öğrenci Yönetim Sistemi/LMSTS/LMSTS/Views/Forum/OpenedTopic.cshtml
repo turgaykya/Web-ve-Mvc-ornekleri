@@ -1,0 +1,123 @@
+﻿@model _01_Entities.Topic
+@{
+    ViewBag.Title = "Topic";
+    Layout = "~/Views/Shared/_TrainerLayout.cshtml";
+}
+<div class="row">
+    <div class="col-md-3 col-sm-6 col-xs-12">
+        <div class="box box-primary">
+            <div class="box-body box-profile">
+                <img class="profile-user-img img-responsive img-circle" src="~/Assets/AdminLTE-2.3.7/dist/img/user4-128x128.jpg" alt="User profile picture">
+                <h3 class="profile-username text-cen    ter">@Model.Login.UserName</h3>
+                <ul class="list-group list-group-unbordered">
+                    <li class="list-group-item">
+                        <b>Yorum Sayısı </b> <a class="pull-right">@Model.Comments.Count()</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.box-body -->
+        </div>
+    </div>
+    <div class="col-md-9 col-sm-6 col-xs-12">
+        <div class="nav-tabs-custom">
+            <div class="tab-content" style="min-height:223px">
+                <div class="active tab-pane" id="activity">
+                    <!-- Post -->
+                    <div class="post">
+                        <div class="user-block">
+                            <img class="img-circle img-bordered-sm" src="~/Assets/AdminLTE-2.3.7/dist/img/user1-128x128.jpg" alt="user image">
+                            <span class="username">
+                                <a href="#">@Model.Head</a>
+                            </span>
+                            <span class="description">@Model.DateOfCreation</span>
+                        </div>
+                        <div id="Description">
+                            @Html.Raw(Model.Description)
+                        </div>
+                    </div>
+                </div>
+                <!-- /.tab-pane -->
+            </div>
+            <!-- /.tab-content -->
+        </div>
+    </div>
+</div>
+<hr />
+<!-- Comments-->
+@foreach (var item in Model.Comments)
+{
+    <div class="row">
+        <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="box box-primary">
+                <div class="box-body box-profile">
+                    <img class="profile-user-img img-responsive img-circle" src="~/Assets/AdminLTE-2.3.7/dist/img/user4-128x128.jpg" alt="User profile picture">
+                    <h3 class="profile-username text-center">@item.Login.UserName</h3>
+                    <ul class="list-group list-group-unbordered">
+                        <li class="list-group-item">
+                            <b>Yorum Sayısı </b> <a class="pull-right">@item.Login.Comments.Count()</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.box-body -->
+            </div>
+        </div>
+        <div class="col-md-9 col-sm-6 col-xs-12">
+            <div class="nav-tabs-custom">
+                <div class="tab-content" style="min-height:223px">
+                    <div class="active tab-pane" id="activity">
+                        <!-- Post -->
+                        <div class="post">
+                            <div class="user-block">
+                                <img class="img-circle img-bordered-sm" src="~/Assets/AdminLTE-2.3.7/dist/img/user1-128x128.jpg" alt="user image">
+                                <span class="username">
+                                    <a href="#">@Model.Head</a>
+                                </span>
+                                <span class="description">@item.DateOfComment</span>
+                            </div>
+                            <div id="Description">
+                                @Html.Raw(item.Description)
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.tab-pane -->
+                </div>
+                <!-- /.tab-content -->
+            </div>
+        </div>
+    </div>
+}
+<!-- Comment Add -->
+
+
+@if (Model.IsActive==true)
+{
+    <div class="row">
+        <div class="col-md-12">
+            @using (Html.BeginForm("AddComment", "Forum", FormMethod.Post))
+            {
+                <input type="hidden" value="@Model.Id" name="Id" />
+                <textarea id="editor1" value="" name="CommentDescription" rows="10" cols="80" style="visibility: hidden; display: none;"></textarea>
+                <div id="cke_editor1" class="cke_1 cke cke_reset cke_chrome cke_editor_editor1 cke_ltr cke_browser_webkit" dir="ltr" lang="tr" role="application" aria-labelledby="cke_editor1_arialbl">
+                </div>
+                <div class="form-group">
+                    <div class="box-footer">
+                        <button type="submit" class="btn btn-info pull-right">Gönder</button>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+}
+else
+{
+    <div class="alert alert-danger alert-dismissible">
+        <h4><i class="icon fa fa-ban"></i> Konu Kilit!</h4>
+        Bu konu yoruma kapatılmıştır...
+    </div>
+}
+
+
+
+
+
+

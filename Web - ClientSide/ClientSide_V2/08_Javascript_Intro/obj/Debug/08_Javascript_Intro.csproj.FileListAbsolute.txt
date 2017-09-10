@@ -1,0 +1,12 @@
+C:\Users\BA\Desktop\ClientSide_V2\08_Javascript_Intro\bin\08_Javascript_Intro.dll.config
+C:\Users\BA\Desktop\ClientSide_V2\08_Javascript_Intro\bin\08_Javascript_Intro.dll
+C:\Users\BA\Desktop\ClientSide_V2\08_Javascript_Intro\bin\08_Javascript_Intro.pdb
+C:\Users\BA\Desktop\ClientSide_V2\08_Javascript_Intro\obj\Debug\08_Javascript_Intro.dll
+C:\Users\BA\Desktop\ClientSide_V2\08_Javascript_Intro\obj\Debug\08_Javascript_Intro.pdb
+C:\Users\BA\Desktop\ClientSide_V2\08_Javascript_Intro\obj\Debug\08_Javascript_Intro.csprojResolveAssemblyReference.cache
+C:\Users\BURAK\Desktop\ClientSide_V2\08_Javascript_Intro\bin\08_Javascript_Intro.dll.config
+C:\Users\BURAK\Desktop\ClientSide_V2\08_Javascript_Intro\bin\08_Javascript_Intro.dll
+C:\Users\BURAK\Desktop\ClientSide_V2\08_Javascript_Intro\bin\08_Javascript_Intro.pdb
+C:\Users\BURAK\Desktop\ClientSide_V2\08_Javascript_Intro\obj\Debug\08_Javascript_Intro.csprojResolveAssemblyReference.cache
+C:\Users\BURAK\Desktop\ClientSide_V2\08_Javascript_Intro\obj\Debug\08_Javascript_Intro.dll
+C:\Users\BURAK\Desktop\ClientSide_V2\08_Javascript_Intro\obj\Debug\08_Javascript_Intro.pdb

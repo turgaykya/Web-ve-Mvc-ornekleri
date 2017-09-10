@@ -1,0 +1,334 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+</head>
+<body>
+    <script>
+        //Tek yorum satırı
+        /*
+            Çok yorum satırı
+        */
+
+
+        /*
+            JAVASCRIPT
+            1 - Inline (element içi)
+            2 - Script tagları arasına
+            3 - Harici bir .js dosyası ile
+        */
+
+        //alert('deneme');
+
+        //Değişken tanımlama
+
+        var değişken;
+        var isim = "Serkan"
+        var sayi = 5; //Noktalı virgul olsada oluuur olmasada olur.
+        var yazıOlarakSayı = "323";
+        var durum = true;
+        var ondalıklı = 1.25
+
+        //alert(isim + sayi);                   //serkan5
+        //alert(ondalıklı + sayi)               //6.25
+        //alert(sayi + yazıOlarakSayı);         //5323
+        //alert(sayi + sayi + yazıOlarakSayı)   //10323
+        //alert(sayi + (sayi + yazıOlarakSayı)) //55323
+        //alert(yazıOlarakSayı + sayi + sayi)   //32355
+
+        //Primitive Types
+
+        /*
+            1 - boolean
+            2 - number
+            3 - string
+            (4 - object)
+        */
+
+        //Instance Types
+
+        /*
+            1 - Object
+            a - Boolean
+            b - Number
+            c - String
+            d - Array
+            e - Date
+            ------------
+            f - Person
+            g - Category
+            //
+            //
+            //
+        */
+
+        // HTMLElement < Element < Node < EventTarget < Object
+
+
+
+        function test() {
+            var deneme = 55;
+            garipŞey = 12
+        }
+
+
+        var name = new String("Aydın")
+        var numbar = new Number(165)
+        var date = new Date(9)
+        var state = new Boolean(false)
+        var state2 = false;
+        var bildik = "deneme";
+        var bildik2;
+
+        //KARAR YAPILARI (if - else)
+
+        //if (state == true) {      //Koşul yanlış
+        //if (state2) {             //Koşul yanlış
+        //if (state) {                  //Koşul doğru
+        //    alert("Koşul doğru")
+        //}
+        //else {
+        //    alert("Koşul yanlış")
+        //}
+        /////////
+        //if (bildik) {
+        //if (bildik2) {
+        //    alert("Doğru")
+        //} else {
+        //    alert("Yanlış")
+        //}
+
+        var sayi = 5
+        var sayi2 = 9
+        var sayi3 = "5"
+        var sayi4 = "22"
+
+        //if (sayi == sayi2) {      //YANLIŞ
+        //if(sayi == sayi3){        //DOĞRU
+        //if(sayi == sayi4) {       //YANLIŞ
+        //if (sayi === sayi3) {     //YANLIŞ
+        //if(sayi !== sayi3){       //DOĞRU
+        //    alert("DOĞRU")
+        //} else {
+        //    alert("YANLIŞ")
+        //}
+
+        // tipinede bakmak gerekiyorsa 3 = (===) olarak kullanmak gerekiyor.
+
+
+        //SWITCH-CASE
+        //var day = 2
+        //switch (day) {
+        //    case 1:
+        //        alert("Pazartesi")
+        //        break;
+        //    case 2:
+        //        alert("Salı")
+        //        break
+        //    case 2:
+        //        alert("Çarşamba")
+        //        break
+        //    case 2:
+        //        alert("Perşembe")
+        //        break
+        //    case 2:
+        //        alert("Cuma")
+        //        break
+        //    case 2:
+        //        alert("Cumartesi")
+        //        break
+        //    case 2:
+        //        alert("Pazar")
+        //        break
+
+        //        default:
+        //}
+
+
+
+
+
+
+
+        // DÖNGÜLER (While)
+
+        //var sayi = 5;
+        //while (sayi  < 10) {
+        //    alert(sayi)
+        //    sayi++
+        //}
+
+        ////////////EXTRA/////////////
+        //var sayi = 5;
+        //while (sayi) {
+        //    alert(sayi)
+        //    sayi++
+        //    if (sayi == 10) {
+        //        sayi = undefined
+        //    }
+        //}
+        //alert("Döngü bitti")
+
+
+
+        /////////////////////////////
+
+        //FOR
+        //for (var i = 0; i < 6; i++) {
+        //    alert(i)
+        //}
+
+
+        //for (var i = 4; i; i--) {
+        //    alert(i)
+
+        //    if (i == 2) {
+        //        i = ""
+        //    }
+        //}
+
+
+        //ARRAYS
+
+        //var isimler = ["Ayça", "Fidan", "Ferhat", "Burak", "Bilal"]
+
+        //alert(isimler[2])
+
+        //isimler[0] = "Can"
+
+        //alert(isimler[0])
+
+        //isimler[8] = "Mehmet"
+        //alert(isimler[8])
+
+
+        //FORIN
+        //for (var i in isimler) {
+        //    alert(isimler[i])
+        //}
+
+
+        //ARRAY METHODs
+
+        //alert(isimler.toString())
+
+        //var dizi = ["asd", 23, false, 1.24]
+        //alert(dizi.toString())
+        //alert(isimler)
+        //alert(isimler.join("-"))
+
+
+        //LIFO
+        //bkz : C# - Stack (can be generic)
+        //alert(isimler.length)
+        //alert(isimler.pop())
+        //alert(isimler.length)
+
+        //isimler.push("Can")
+        //alert(isimler)
+
+        /////////
+        //FIFO
+        //bkz : C# - Queue (can be generic)
+        //var kayanKişi = isimler.shift();
+        //alert(kayanKişi)
+        //alert(isimler)
+        //isimler.unshift("Mehmet");
+        //alert(isimler)
+
+        var cumle = "Dışarda hava çok güzel"
+        var index = cumle.indexOf("a")
+        //alert(index);
+        //alert(cumle.lastIndexOf("a"))
+
+        //alert(cumle.indexOf("hava"))
+
+        /*
+            ÖDEV
+
+            lastIndexOf // verilen metnin başlangıç konumunu bulur.
+            search
+            slice
+            splice
+            replace
+            substring
+            substr
+            toUpperCase
+            toLowerCase
+            concat
+            charAt
+            split
+
+            Date.parse("March 22, 2016")
+
+        */
+
+        
+
+
+
+
+
+
+
+        //Conversion (dönüşümler)
+
+        var sayı = 124123
+        var metin = sayi.toString();
+
+        var tamSayı = parseInt("123");
+        var ondalıklıSayı = parseFloat("123.44")
+
+
+
+        //Klasik "TIRAY KEÇ"
+        /*
+
+        try {
+
+        }
+        catch (e)
+        {
+
+        }
+        finally
+        {
+
+        }
+
+        */
+
+
+
+        //lastIndexOf // verilen metnin başlangıç konumunu bulur.
+
+        
+        function myFunction() {
+            var str = "deneme amaçlı metin";
+            var n = str.search("metin");
+            document.getElementById("test").innerHTML = n;
+        }
+
+
+
+    </script>
+    <button onclick="myFunction()">Function Deneme</button>
+    <p id="test"></p>
+    <script>
+        //alert("boo")
+
+        //debugger
+
+
+        //test();
+        //alert(deneme)
+        //alert(garipŞey)
+
+    </script>
+
+    <button onclick="alert('Element içine yazdığım ilk JS kodu')">Tıkla Beni</button>
+    <input type="button" value="Tıkla Beni" onclick="alert('input element onclick')" />
+
+</body>
+</html>

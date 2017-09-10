@@ -1,0 +1,6 @@
+C:\Users\BA\Desktop\ClientSide_V2\11_JS_Jquery\bin\11_JS_Jquery.dll.config
+C:\Users\BA\Desktop\ClientSide_V2\11_JS_Jquery\bin\11_JS_Jquery.dll
+C:\Users\BA\Desktop\ClientSide_V2\11_JS_Jquery\bin\11_JS_Jquery.pdb
+C:\Users\BA\Desktop\ClientSide_V2\11_JS_Jquery\obj\Debug\11_JS_Jquery.csprojResolveAssemblyReference.cache
+C:\Users\BA\Desktop\ClientSide_V2\11_JS_Jquery\obj\Debug\11_JS_Jquery.dll
+C:\Users\BA\Desktop\ClientSide_V2\11_JS_Jquery\obj\Debug\11_JS_Jquery.pdb

@@ -1,0 +1,49 @@
+﻿@using EmployeeManagement.EF.Entities
+@model Department
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+@if (Model.Id != 0)
+{
+    <h2>Departman Düzenleme</h2>
+
+}
+else
+{
+    <h2>Departman Ekle</h2>
+
+}
+
+
+<form method="post">
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.Name, "Departman Adı")
+        @Html.TextBoxFor(m => m.Name, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.Description, "Açıklaması")
+        @Html.TextAreaFor(m => m.Description, new { @class = "form-control" })
+    </div>
+    @* Html helper sınıfı *@
+
+    <div class="form-group">
+        @if (Model.Id != 0)
+        {
+            <button class="btn btn-primary">
+                Güncelle
+            </button>
+        }
+        else
+        {
+            <button class="btn btn-success">
+                Ekle
+            </button>
+        }
+        <a href="/Department" class="btn btn-danger">İptal</a>
+    </div>
+
+</form>

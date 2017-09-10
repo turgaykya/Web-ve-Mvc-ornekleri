@@ -1,0 +1,78 @@
+﻿@model _01_Entities.Student
+
+@{
+    ViewBag.Title = "Yeni Öğrenci Ekle";
+    Layout = "~/Views/Shared/_TrainerLayout.cshtml";
+}
+
+@if (Model.Id != 0)
+{
+    <h2>Öğrenci Bilgilerini Düzenle</h2>
+}
+else
+{
+    <h2>Yeni Öğrenci Ekle</h2>
+}
+
+@using (Html.BeginForm())
+{
+    <div class="form-group">
+        @Html.LabelFor(s => s.FirstName, "Öğrenci Adı")
+        @Html.TextBoxFor(s => s.FirstName, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(s => s.LastName, "Öğrenci Soyadı")
+        @Html.TextBoxFor(s => s.LastName, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(s => s.GenderID, "Cinsiyeti")
+        @Html.DropDownListFor(s => s.GenderID, (SelectList)ViewBag.Genders, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(s => s.EducationBranchID, "Eğitim Branşı")
+        @Html.DropDownListFor(s => s.EducationBranchID, (SelectList)ViewBag.EducationBranchs, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(s => s.Login.CitizenNumber, "T.C Numarası")
+        @Html.TextBoxFor(s => s.Login.CitizenNumber, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(s => s.Login.Mail, "Mail Adresi")
+        @Html.TextBoxFor(s => s.Login.Mail, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(s => s.Login.UserName, "Kullanıcı Adı")
+        @Html.TextBoxFor(s => s.Login.UserName, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        <script>
+            function makeid() {
+                document.getElementById("Login_Password").value = Math.round(Math.random() * 100000000000000) + 10000000;
+            }
+        </script>
+        <input type="button" onclick="makeid()" value="Parola Ata" />
+        @Html.PasswordFor(x=>x.Login.Password, new { @class="form-control"})
+        @*@Html.LabelFor(s => s.login.password, "parola")<br />*@
+        @*@html.passwordfor(s => s.login.password, new { @class = "form-control" })*@
+        @*<input type="button" style="font-size:9pt" value="paralo üret" onclick="document.getelementbyıd('code').value = makeid()" />*@
+    </div>
+    <div>
+        @Html.LabelFor(s => s.Status, "Durumu")
+        @Html.CheckBoxFor(s => s.Status, new { @checked = "checked" })
+    </div>
+
+    <div class="form-group">
+        @if (Model.Id != 0)
+        {
+            <button class="btn btn-primary">Değişiklikleri Kaydet</button>
+        }
+        else
+        {
+            <button class="btn btn-primary" onclick="makeid()" id="parola">Kaydet</button>
+
+        }
+        <a href="~/StudentCRUD/Index" class="btn btn-danger">İptal</a>
+    </div>
+}
+
+

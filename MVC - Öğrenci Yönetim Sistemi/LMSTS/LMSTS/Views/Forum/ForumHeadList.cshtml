@@ -1,0 +1,97 @@
+﻿@model List<_01_Entities.Topic>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_TrainerLayout.cshtml";
+}
+<section class="content-header">
+    <h1>
+        Forum Anasayfa
+        <small>Eğitim Grubunuzla İlgili Konuları BUrada Bulabilirsiniz.</small>
+    </h1>
+    <ol class="breadcrumb">
+        <li><a href="#"><i class="fa fa-dashboard"></i> Anasayfa</a></li>
+        <li><a href="#">Forum</a></li>
+    </ol>
+</section>
+<div class="row">
+    <div class="col-xs-12">
+        <div class="box">
+            <div class="box-header">
+                <div class="callout callout-info">
+                    <h4>Buralar Hep Forum</h4>
+                </div>
+                <a href="~/Forum/NewTopicAdd/" type="button" class="btn btn-primary btn-xs" style="float:right">Yeni Konu</a>
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body">
+                <table id="example1" class="table table-bordered table-striped">
+                    <col width=69%>
+                    <col width=5%>
+                    <col width=4½>
+                    <col width=17½>
+                    <col width=5½>
+                    <thead>
+                        <tr>
+                            <th>Konu Başlığı</th>
+                            <th>Görülme</th>
+                            <th>Yorum</th>
+                            <th>Konuyu Başlatan</th>
+                            <th>&nbsp;</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td><a href="/Forum/OpenedTopic/@item.Id">@item.Head</a></td>
+                                <td>@item.Hit</td>
+                                <th>@item.Comments.Count()</th>
+                                <td>@item.Login.UserName</td>
+
+                                <td>
+                                    @{if (item.Login.Id == 5)
+                                        {
+                                            <a href="~/Forum/NewTopicAdd/@item.Id" class="glyphicon glyphicon-cog" style="float:left"></a>
+                                            <a onclick="DeleteTopic()" data-id="@item.Id" id="BlockTopic" class="glyphicon glyphicon-lock" style="float:right" />
+                                        }
+                                    }
+                                </td>
+                            </tr>
+                         }
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <th>Konu Başlığı</th>
+                            <th>Görülme</th>
+                            <th>Yorum</th>
+                            <th>Konuyu Başlatan</th>
+                            <th>&nbsp;</th>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+            <!-- /.box-body -->
+        </div>
+        <!-- /.box -->
+    </div>
+    <!-- /.col -->
+</div>
+<!-- /.row -->
+<script type="text/javascript">
+
+    function DeleteTopic() {
+
+
+        var result = confirm("Konuyu kilitlemek istediğine emin misin?")
+
+        if (result) {
+            window.location = "/Forum/BlockTopic/" + event.target.getAttribute("data-id");
+        }
+        else
+        {
+            window.location="/Forum/ForumHeadList"
+        }
+    }
+
+
+</script>

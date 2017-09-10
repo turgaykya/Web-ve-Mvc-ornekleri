@@ -1,0 +1,43 @@
+﻿@model List<LMSTS.Models.SubjectListModel>
+@{
+    ViewBag.Title = "Konu Listesi";
+    Layout = "~/Views/Shared/_TrainerLayout.cshtml";
+}
+
+<h2>Konu Listesi</h2>
+
+@if (TempData["ResultMessage"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["ResultMessage"];
+    </div>
+}
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Adı  </th>
+            <th>Eğitim Grubu Adı</th>
+            <th>Kayıt Tarihi</th>
+            <th>
+                @Html.ActionLink("Yeni Konu Ekle", "Edit", null, new { Class = "btn btn-warning btn-xs" })
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            foreach (var subject in Model)
+            {
+                <tr>
+                    <td>@subject.Name</td>
+                    <td>@subject.EducationGroupName</td>
+                    <td>@subject.DateOfCreation</td>
+                    <td>
+                        @Html.ActionLink("Konu Güncelle", "Edit", new { id = subject.Id }, new { Class = "btn btn-primary btn-xs" })
+                    </td>
+
+                </tr>
+            }
+        }
+    </tbody>
+</table>

@@ -1,0 +1,12 @@
+C:\Users\BURAK\Desktop\ClientSide_V2\HocanınSitesi\bin\HocanınSitesi.dll.config
+C:\Users\BURAK\Desktop\ClientSide_V2\HocanınSitesi\bin\HocanınSitesi.dll
+C:\Users\BURAK\Desktop\ClientSide_V2\HocanınSitesi\bin\HocanınSitesi.pdb
+C:\Users\BURAK\Desktop\ClientSide_V2\HocanınSitesi\obj\Debug\00-ÇALIŞMA-PROJESI.csprojResolveAssemblyReference.cache
+C:\Users\BURAK\Desktop\ClientSide_V2\HocanınSitesi\obj\Debug\HocanınSitesi.dll
+C:\Users\BURAK\Desktop\ClientSide_V2\HocanınSitesi\obj\Debug\HocanınSitesi.pdb
+C:\Users\BA\Desktop\ClientSide_V2\HocanınSitesi\bin\HocanınSitesi.dll.config
+C:\Users\BA\Desktop\ClientSide_V2\HocanınSitesi\bin\HocanınSitesi.dll
+C:\Users\BA\Desktop\ClientSide_V2\HocanınSitesi\bin\HocanınSitesi.pdb
+C:\Users\BA\Desktop\ClientSide_V2\HocanınSitesi\obj\Debug\00-ÇALIŞMA-PROJESI.csprojResolveAssemblyReference.cache
+C:\Users\BA\Desktop\ClientSide_V2\HocanınSitesi\obj\Debug\HocanınSitesi.dll
+C:\Users\BA\Desktop\ClientSide_V2\HocanınSitesi\obj\Debug\HocanınSitesi.pdb

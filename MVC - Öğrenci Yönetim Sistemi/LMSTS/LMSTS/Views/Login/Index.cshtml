@@ -1,0 +1,364 @@
+﻿@model _01_Entities.Trainer
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Login</title>
+    <link href="~/Assets/AdminLTE-2.3.7/bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <style>
+        body {
+            background-color: #cccccc;
+            background-image: url("http://www.neolux.fr/wp-content/uploads/2013/06/bg_formation1.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .well {
+            background-color: #001122;
+            margin-top: 6%;
+            border-radius: 5%;
+            box-shadow: 0 0 20px 1px #001122;
+        }
+
+        .sgin {
+            background-color: #f3f3f3;
+            padding: 2%;
+            margin-top: 5%;
+            border-radius: 5%;
+            box-shadow: 0 0 20px 1px #f3f3f3;
+        }
+
+        .red {
+            color: red;
+        }
+
+        .green {
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1 well" style="display:@ViewBag.PanelLogin" id="userLogin-in">
+            <form class="text-center" method="post">
+                <div>
+                    <img src="http://www.monarchmedia.com/wp-content/uploads/2014/12/lms-e1422052431711.png" style="width:100%;" />
+                </div>
+                <div class="form-group">
+                    <input type="text" name="UserId" class="form-control" placeholder="T.C Numarası, Mail Adresi, Kullanıcı Adı.." />
+                </div>
+                <div class="form-group">
+                    <input type="password" name="Password" class="form-control" placeholder="Parola..." />
+                </div>
+                <div class="form-group">
+                    <input type="checkbox" name="rememberMe" id="remember_Me" />
+                    <label for="remember_Me" style="cursor:pointer">Beni Hatırla</label>
+                </div>
+                <div style="display:none;" class="form-group text-center alert alert-danger" id="error-message">@ViewBag.ErrorMessage</div>
+                <div style="display:none;" class="form-group text-center alert alert-success" id="login-message">@TempData["Messaj"]</div>
+                <div class="form-group">
+                    <button class="btn btn-success" style="width:30%">Giriş</button>
+                    <input type="button" class="btn btn-default" id="btn-sgin" value="Kayıt Ol" />
+                </div>
+            </form>
+        </div>
+        <div id="userSign-in" class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-12 sgin" style="display: @ViewBag.PanelSgin">
+            <form action="~/Login/Sgin" method="post">
+                <div class="col-xs-12 col-sm-5 col-md-5">
+                    <div class="row">
+                        <div class="form-group">
+                            @Html.LabelFor(x => x.FirstName, "Adınız")
+                            <div class="input-group">
+                                @Html.TextBoxFor(x => x.FirstName, new { @class = "form-control" })
+                                <span class="input-group-addon" id="spanFirstName"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-group">
+                            @Html.LabelFor(x => x.LastName, "Soyadınız")
+                            <div class="input-group">
+                                @Html.TextBoxFor(x => x.LastName, new { @class = "form-control", })
+                                <span class="input-group-addon" id="spanLastName"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-group">
+                            @Html.LabelFor(x => x.DateOfBirth, "Doğum Tarihiniz")
+                            @Html.TextBoxFor(x => x.DateOfBirth, new { @class = "form-control", type = "date" })
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-group">
+                            @Html.LabelFor(x => x.BranchID, "Branşınız")
+                            @Html.DropDownListFor(x => x.BranchID, (SelectList)ViewBag.Branch, new { @class = "form-control", })
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-group">
+                            @Html.LabelFor(x => x.TitleID, "Ünvanınız")
+                            @Html.DropDownListFor(x => x.TitleID, (SelectList)ViewBag.Title, new { @class = "form-control", })
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-group">
+                            @Html.LabelFor(x => x.GenderID, "Cinsiyetiniz")
+                            @Html.DropDownListFor(x => x.GenderID, (SelectList)ViewBag.Gender, new { @class = "form-control", })
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-5 col-sm-offset-1 col-md-5 col-md-offset-1">
+                    <div class="row">
+                        <div class="form-group">
+                            @Html.LabelFor(x => x.Login.CitizenNumber, "T.C Numaranız")
+                            <div class="input-group">
+                                @Html.TextBoxFor(x => x.Login.CitizenNumber, new { @class = "form-control" })
+                                <span class="input-group-addon" id="spanCitizenNumber"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-group">
+                            @Html.LabelFor(x => x.Login.UserName, "Kullanıcı Adınız")
+                            <div class="input-group">
+                                @Html.TextBoxFor(x => x.Login.UserName, new { @class = "form-control" })
+                                <span class="input-group-addon" id="spanUserName"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-group">
+                            @Html.LabelFor(x => x.Login.Mail, "Mail Adresiniz")
+                            <div class="input-group">
+                                @Html.TextBoxFor(x => x.Login.Mail, new { @class = "form-control" })
+                                <span class="input-group-addon" id="spanMail"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-group">
+                            <label for="mail">Mail Adresiniz (Onay)</label>
+                            <input type="text" id="mail" name="Mail" class="form-control" />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-group">
+                            @Html.LabelFor(x => x.Login.Password, "Parolanız")
+                            <div class="input-group">
+                                @Html.PasswordFor(x => x.Login.Password, new { @class = "form-control" })
+                                <span class="input-group-addon" id="spanPassword"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-group">
+                            <label for="password">Parolanız (Onay)</label>
+                            <input type="password" id="password" class="form-control" name="Password" />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-12"><div class="row"><div style="display:none;" class="form-group text-center alert alert-danger" id="sgin-message">@ViewBag.Messaj</div></div></div>
+                <div class="col-xs-12  col-sm-12  col-md-12 ">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-7 col-md-7 center-block">
+                            <input type="checkbox" name="Contract" id="contract" />
+                            <label for="contract">Kullanıcı Sözleşmesini Onaylıyorum</label>
+                        </div>
+                        <div class="col-xs-12 col-sm-5 col-md-5 center-block">
+                            <input type="submit" name="Save" id="save" class="btn btn-success" value="Kaydet" />
+                            <input type="button" name="Login" id="btn-login" class="btn btn-danger" value="Giriş Yap" />
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+
+    </div>
+    <script src="~/Assets/scripts/jquery-3.1.1.min.js"></script>
+    <script>
+        
+        $(document).ready(function () {
+            var spanFirstName;
+            var spanLastName;
+            var spanCitizenNumber;
+            var spanUserName;
+            var spanMail;
+            var spanPassword;
+            $("#save").prop("disabled", false)
+            if ($("#login-message").html() != "") {
+                $("#login-message").slideDown();
+                setTimeout(function () {
+                    $("#login-message").slideUp();
+                }, 3000)
+            };
+            if ($("#sgin-message").html() != "") {
+                $("#sgin-message").slideDown();
+                setTimeout(function () {
+                    $("#sgin-message").slideUp();
+                }, 3000)
+            };
+            if ($("#error-message").html() != "") {
+                $("#error-message").slideDown();
+                setTimeout(function () {
+                    $("#error-message").slideUp();
+                }, 3000)
+            };
+            $("#btn-sgin").click(function () {
+                $("#userLogin-in").slideUp();
+                setTimeout(function () {
+                    $("#userSign-in").slideDown();
+                }, 300)
+
+            })
+
+            $("#btn-login").click(function () {
+                $("#userSign-in").slideUp();
+                setTimeout(function () {
+                    $("#userLogin-in").slideDown();
+                }, 300)
+            })
+            $("#FirstName").keyup(function () {
+                if ($("#FirstName").val().length > 2) {
+                    $("#spanFirstName").removeClass("red").addClass("green").html("&#x2714;");
+                    spanFirstName = true;
+                } else {
+                    spanFirstName = false;
+                    $("#spanFirstName").removeClass("green").addClass("red").html("X");
+                }
+                SpanControl()
+            })
+            $("#LastName").keyup(function () {
+                if ($("#LastName").val().length > 1) {
+                    spanLastName = true;
+                    $("#spanLastName").removeClass("red").addClass("green").html("&#x2714;");
+                } else {
+                    spanLastName = false;
+                    $("#spanLastName").removeClass("green").addClass("red").html("X");
+                }
+                SpanControl()
+            })
+            $("#Login_CitizenNumber").keyup(function () {
+                var control = false;
+                if ($("#Login_CitizenNumber").val().length == 11) {
+                    // Kimlik numarası kontrolü yapılacak
+                    var citizenNumber = $("#Login_CitizenNumber").val();
+                    if (citizenNumber[0] != 0) {
+                        var result = (parseInt(citizenNumber[9]) == (((parseInt(citizenNumber[0]) + parseInt(citizenNumber[2]) + parseInt(citizenNumber[4]) + parseInt(citizenNumber[6]) + parseInt(citizenNumber[8])) * 7) - (parseInt(citizenNumber[1]) + parseInt(citizenNumber[3]) + parseInt(citizenNumber[5]) + parseInt(citizenNumber[7]))) % 10 && (parseInt(citizenNumber[10]) == (parseInt(citizenNumber[0]) + parseInt(citizenNumber[1]) + parseInt(citizenNumber[2]) + parseInt(citizenNumber[3]) + parseInt(citizenNumber[4]) + parseInt(citizenNumber[5]) + parseInt(citizenNumber[6]) + parseInt(citizenNumber[7]) + parseInt(citizenNumber[8]) + parseInt(citizenNumber[9])) % 10))
+                        control = result;
+                    }
+                    else
+                        control = result;
+
+                }
+
+                if (true) {
+                    $("#spanCitizenNumber").removeClass("red").addClass("green").html("&#x2714;");
+                    spanCitizenNumber = true;
+                }
+                else {
+                    $("#spanCitizenNumber").removeClass("green").addClass("red").html("X");
+                    spanCitizenNumber = false;
+                }
+                SpanControl()
+            })
+
+            $("#Login_UserName").keyup(function () {
+                if ($("#Login_UserName").val().length > 5) {
+                    debugger;
+                    var val = $("#Login_UserName").val();
+                    $.ajax({
+                        url: "/Login/ValControl/?val=" + val.valueOf(),
+                        type: "GET",
+                        dataType: "json",
+                        success: function (result) {
+                            var success = result.Id
+                            if (!success) {
+                                $("#spanUserName").removeClass("red").addClass("green").html("&#x2714;");
+                                spanUserName = true;
+                            }
+                            else {
+                                $("#spanUserName").removeClass("green").addClass("red").html("X")
+                                spanUserName = false;
+                            }
+                        },
+                        error: function () {
+                            spanUserName = false;
+                            $("#spanUserName").removeClass("green").addClass("red").html("!")
+                        }
+                    })
+                } else {
+                    spanUserName = false;
+                    $("#spanUserName").removeClass("green").addClass("red").html("X");
+                }
+                SpanControl()
+            })
+
+            $("#Login_Mail").keyup(function () {
+                debugger;
+                if ($("#Login_Mail").val().length > 4) {
+                    var mail = $("#Login_Mail").val()
+                    if (mail.indexOf('@@') != -1 && (mail.indexOf('.') != -1 && mail.length - mail.indexOf('.') - 1 >= 2))
+                        $.ajax({
+                            url: "/Login/ValControl/?val=" + mail.valueOf(),
+                            type: "GET",
+                            dataType: "json",
+                            success: function (result) {
+                                var success = result.Id
+                                if (!success) {
+                                    $("#spanMail").removeClass("red").addClass("green").html("&#x2714;");
+                                    spanMail = true;
+                                }
+                                else {
+                                    $("#spanMail").removeClass("green").addClass("red").html("X")
+                                    spanMail = false;
+                                }
+                            },
+                            error: function () {
+                                $("#spanMail").removeClass("green").addClass("red").html("!")
+                                spanMail = false;
+                            }
+                        })
+
+                    else {
+                        $("#spanMail").removeClass("green").addClass("red").html("X");
+                        spanMail = false;
+                    }
+                } else {
+                    $("#spanMail").removeClass("green").addClass("red").html("X");
+                    spanMail = false;
+                }
+                SpanControl()
+            })
+
+
+            $("#Login_Password").keyup(function () {
+                if ($("#Login_Password").val().length > 6) {
+                    $("#spanPassword").removeClass("red").addClass("green").html("&#x2714;");
+                    spanPassword = true;
+                } else {
+                    spanPassword = false;
+                    $("#spanPassword").removeClass("green").addClass("red").html("X");
+                }
+                SpanControl()
+            })
+
+            function SpanControl() {
+                if (spanCitizenNumber && SpanControl && spanFirstName && spanLastName && spanMail && spanPassword && spanUserName) {
+
+                    $("#save").prop("disabled", false)
+                }
+                else {
+                    $("#save").prop("disabled", false)
+                }
+            }
+        })
+    </script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+c:\users\burak\documents\visual studio 2013\Projects\161103-JS_ODEV\Js_Odev_Ornekleri\bin\Js_Odev_Ornekleri.dll.config
+c:\users\burak\documents\visual studio 2013\Projects\161103-JS_ODEV\Js_Odev_Ornekleri\bin\Js_Odev_Ornekleri.dll
+c:\users\burak\documents\visual studio 2013\Projects\161103-JS_ODEV\Js_Odev_Ornekleri\bin\Js_Odev_Ornekleri.pdb
+c:\users\burak\documents\visual studio 2013\Projects\161103-JS_ODEV\Js_Odev_Ornekleri\obj\Debug\Js_Odev_Ornekleri.csprojResolveAssemblyReference.cache
+c:\users\burak\documents\visual studio 2013\Projects\161103-JS_ODEV\Js_Odev_Ornekleri\obj\Debug\Js_Odev_Ornekleri.dll
+c:\users\burak\documents\visual studio 2013\Projects\161103-JS_ODEV\Js_Odev_Ornekleri\obj\Debug\Js_Odev_Ornekleri.pdb
+E:\YAZILIM\PROJELER YEDEK\161103-JS_ODEV\Js_Odev_Ornekleri\bin\Js_Odev_Ornekleri.dll.config
+E:\YAZILIM\PROJELER YEDEK\161103-JS_ODEV\Js_Odev_Ornekleri\bin\Js_Odev_Ornekleri.dll
+E:\YAZILIM\PROJELER YEDEK\161103-JS_ODEV\Js_Odev_Ornekleri\bin\Js_Odev_Ornekleri.pdb
+E:\YAZILIM\PROJELER YEDEK\161103-JS_ODEV\Js_Odev_Ornekleri\obj\Debug\Js_Odev_Ornekleri.csprojResolveAssemblyReference.cache
+E:\YAZILIM\PROJELER YEDEK\161103-JS_ODEV\Js_Odev_Ornekleri\obj\Debug\Js_Odev_Ornekleri.dll
+E:\YAZILIM\PROJELER YEDEK\161103-JS_ODEV\Js_Odev_Ornekleri\obj\Debug\Js_Odev_Ornekleri.pdb

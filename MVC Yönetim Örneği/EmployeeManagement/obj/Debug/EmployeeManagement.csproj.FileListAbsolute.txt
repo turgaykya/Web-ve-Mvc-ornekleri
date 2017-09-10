@@ -1,0 +1,50 @@
+C:\Users\BURAK\documents\visual studio 2013\Projects\MVC_DERS\EmployeeManagement\bin\EmployeeManagement.dll.config
+C:\Users\BURAK\documents\visual studio 2013\Projects\MVC_DERS\EmployeeManagement\bin\EmployeeManagement.dll
+C:\Users\BURAK\documents\visual studio 2013\Projects\MVC_DERS\EmployeeManagement\bin\EmployeeManagement.pdb
+C:\Users\BURAK\documents\visual studio 2013\Projects\MVC_DERS\EmployeeManagement\bin\EntityFramework.dll
+C:\Users\BURAK\documents\visual studio 2013\Projects\MVC_DERS\EmployeeManagement\bin\EntityFramework.SqlServer.dll
+C:\Users\BURAK\documents\visual studio 2013\Projects\MVC_DERS\EmployeeManagement\bin\System.Web.Helpers.dll
+C:\Users\BURAK\documents\visual studio 2013\Projects\MVC_DERS\EmployeeManagement\bin\System.Web.Mvc.dll
+C:\Users\BURAK\documents\visual studio 2013\Projects\MVC_DERS\EmployeeManagement\bin\System.Web.Razor.dll
+C:\Users\BURAK\documents\visual studio 2013\Projects\MVC_DERS\EmployeeManagement\bin\System.Web.Webpages.Deployment.dll
+C:\Users\BURAK\documents\visual studio 2013\Projects\MVC_DERS\EmployeeManagement\bin\System.Web.Webpages.dll
+C:\Users\BURAK\documents\visual studio 2013\Projects\MVC_DERS\EmployeeManagement\bin\System.Web.Webpages.Razor.dll
+C:\Users\BURAK\documents\visual studio 2013\Projects\MVC_DERS\EmployeeManagement\bin\EntityFramework.xml
+C:\Users\BURAK\documents\visual studio 2013\Projects\MVC_DERS\EmployeeManagement\bin\EntityFramework.SqlServer.xml
+C:\Users\BURAK\documents\visual studio 2013\Projects\MVC_DERS\EmployeeManagement\bin\System.Web.Razor.xml
+C:\Users\BURAK\documents\visual studio 2013\Projects\MVC_DERS\EmployeeManagement\bin\System.Web.Webpages.xml
+C:\Users\BURAK\documents\visual studio 2013\Projects\MVC_DERS\EmployeeManagement\bin\System.Web.Webpages.Deployment.xml
+C:\Users\BURAK\documents\visual studio 2013\Projects\MVC_DERS\EmployeeManagement\bin\System.Web.Webpages.Razor.xml
+C:\Users\BURAK\documents\visual studio 2013\Projects\MVC_DERS\EmployeeManagement\bin\System.Web.Helpers.xml
+C:\Users\BURAK\documents\visual studio 2013\Projects\MVC_DERS\EmployeeManagement\bin\System.Web.Mvc.xml
+C:\Users\BURAK\documents\visual studio 2013\Projects\MVC_DERS\EmployeeManagement\obj\Debug\EmployeeManagement.Migrations.FirstMigration.resources
+C:\Users\BURAK\documents\visual studio 2013\Projects\MVC_DERS\EmployeeManagement\obj\Debug\EmployeeManagement.Migrations.loginPropsAdd.resources
+C:\Users\BURAK\documents\visual studio 2013\Projects\MVC_DERS\EmployeeManagement\obj\Debug\EmployeeManagement.csproj.GenerateResource.Cache
+C:\Users\BURAK\documents\visual studio 2013\Projects\MVC_DERS\EmployeeManagement\obj\Debug\EmployeeManagement.dll
+C:\Users\BURAK\documents\visual studio 2013\Projects\MVC_DERS\EmployeeManagement\obj\Debug\EmployeeManagement.pdb
+C:\Users\BURAK\documents\visual studio 2013\Projects\MVC_DERS\EmployeeManagement\obj\Debug\EmployeeManagement.csprojResolveAssemblyReference.cache
+E:\YAZILIM\PROJELER YEDEK\MVC_DERS\EmployeeManagement\bin\EmployeeManagement.dll.config
+E:\YAZILIM\PROJELER YEDEK\MVC_DERS\EmployeeManagement\bin\EmployeeManagement.dll
+E:\YAZILIM\PROJELER YEDEK\MVC_DERS\EmployeeManagement\bin\EmployeeManagement.pdb
+E:\YAZILIM\PROJELER YEDEK\MVC_DERS\EmployeeManagement\bin\EntityFramework.dll
+E:\YAZILIM\PROJELER YEDEK\MVC_DERS\EmployeeManagement\bin\EntityFramework.SqlServer.dll
+E:\YAZILIM\PROJELER YEDEK\MVC_DERS\EmployeeManagement\bin\System.Web.Helpers.dll
+E:\YAZILIM\PROJELER YEDEK\MVC_DERS\EmployeeManagement\bin\System.Web.Mvc.dll
+E:\YAZILIM\PROJELER YEDEK\MVC_DERS\EmployeeManagement\bin\System.Web.Razor.dll
+E:\YAZILIM\PROJELER YEDEK\MVC_DERS\EmployeeManagement\bin\System.Web.Webpages.Deployment.dll
+E:\YAZILIM\PROJELER YEDEK\MVC_DERS\EmployeeManagement\bin\System.Web.Webpages.dll
+E:\YAZILIM\PROJELER YEDEK\MVC_DERS\EmployeeManagement\bin\System.Web.Webpages.Razor.dll
+E:\YAZILIM\PROJELER YEDEK\MVC_DERS\EmployeeManagement\bin\EntityFramework.xml
+E:\YAZILIM\PROJELER YEDEK\MVC_DERS\EmployeeManagement\bin\EntityFramework.SqlServer.xml
+E:\YAZILIM\PROJELER YEDEK\MVC_DERS\EmployeeManagement\bin\System.Web.Razor.xml
+E:\YAZILIM\PROJELER YEDEK\MVC_DERS\EmployeeManagement\bin\System.Web.Webpages.xml
+E:\YAZILIM\PROJELER YEDEK\MVC_DERS\EmployeeManagement\bin\System.Web.Webpages.Deployment.xml
+E:\YAZILIM\PROJELER YEDEK\MVC_DERS\EmployeeManagement\bin\System.Web.Webpages.Razor.xml
+E:\YAZILIM\PROJELER YEDEK\MVC_DERS\EmployeeManagement\bin\System.Web.Helpers.xml
+E:\YAZILIM\PROJELER YEDEK\MVC_DERS\EmployeeManagement\bin\System.Web.Mvc.xml
+E:\YAZILIM\PROJELER YEDEK\MVC_DERS\EmployeeManagement\obj\Debug\EmployeeManagement.csprojResolveAssemblyReference.cache
+E:\YAZILIM\PROJELER YEDEK\MVC_DERS\EmployeeManagement\obj\Debug\EmployeeManagement.Migrations.FirstMigration.resources
+E:\YAZILIM\PROJELER YEDEK\MVC_DERS\EmployeeManagement\obj\Debug\EmployeeManagement.Migrations.loginPropsAdd.resources
+E:\YAZILIM\PROJELER YEDEK\MVC_DERS\EmployeeManagement\obj\Debug\EmployeeManagement.csproj.GenerateResource.Cache
+E:\YAZILIM\PROJELER YEDEK\MVC_DERS\EmployeeManagement\obj\Debug\EmployeeManagement.dll
+E:\YAZILIM\PROJELER YEDEK\MVC_DERS\EmployeeManagement\obj\Debug\EmployeeManagement.pdb

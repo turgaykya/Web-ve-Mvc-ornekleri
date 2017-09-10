@@ -1,0 +1,76 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00 Entities", "00 Entities", "{C851100C-AB5C-4106-889F-6238D3968E5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "01_Entities\Entities.csproj", "{B2201504-57AD-42E8-B81E-EAC8F738FA01}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 Data Access", "01 Data Access", "{E98C73E0-EC56-4396-8658-9E5F1BC0FDDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{930D29D5-6798-43D8-9188-AC5C7300C214}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 Business", "02 Business", "{0626E3ED-6D73-45BE-AA46-24F20C05090D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business", "Business\Business.csproj", "{20E24DD8-D202-4C38-A45F-9A633D97C1C7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 UI Web", "03 UI Web", "{466D260E-8299-4EF1-91DA-66D1D458D2E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LMSTS", "LMSTS\LMSTS.csproj", "{E6BABD0A-7B4E-4AC0-AC7B-917ADD3D56F4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B2201504-57AD-42E8-B81E-EAC8F738FA01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2201504-57AD-42E8-B81E-EAC8F738FA01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2201504-57AD-42E8-B81E-EAC8F738FA01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2201504-57AD-42E8-B81E-EAC8F738FA01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{930D29D5-6798-43D8-9188-AC5C7300C214}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{930D29D5-6798-43D8-9188-AC5C7300C214}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{930D29D5-6798-43D8-9188-AC5C7300C214}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{930D29D5-6798-43D8-9188-AC5C7300C214}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20E24DD8-D202-4C38-A45F-9A633D97C1C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20E24DD8-D202-4C38-A45F-9A633D97C1C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20E24DD8-D202-4C38-A45F-9A633D97C1C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20E24DD8-D202-4C38-A45F-9A633D97C1C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6BABD0A-7B4E-4AC0-AC7B-917ADD3D56F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6BABD0A-7B4E-4AC0-AC7B-917ADD3D56F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6BABD0A-7B4E-4AC0-AC7B-917ADD3D56F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6BABD0A-7B4E-4AC0-AC7B-917ADD3D56F4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B2201504-57AD-42E8-B81E-EAC8F738FA01} = {C851100C-AB5C-4106-889F-6238D3968E5F}
+		{930D29D5-6798-43D8-9188-AC5C7300C214} = {E98C73E0-EC56-4396-8658-9E5F1BC0FDDD}
+		{20E24DD8-D202-4C38-A45F-9A633D97C1C7} = {0626E3ED-6D73-45BE-AA46-24F20C05090D}
+		{E6BABD0A-7B4E-4AC0-AC7B-917ADD3D56F4} = {466D260E-8299-4EF1-91DA-66D1D458D2E7}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://213.14.92.74:8080/tfs/alfastudentscollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = 01_Entities\\Entities.csproj
+		SccProjectTopLevelParentUniqueName1 = LMSTS.sln
+		SccProjectName1 = 01_Entities
+		SccLocalPath1 = 01_Entities
+		SccProjectUniqueName2 = Business\\Business.csproj
+		SccProjectTopLevelParentUniqueName2 = LMSTS.sln
+		SccProjectName2 = Business
+		SccLocalPath2 = Business
+		SccProjectUniqueName3 = DataAccess\\DataAccess.csproj
+		SccProjectTopLevelParentUniqueName3 = LMSTS.sln
+		SccProjectName3 = DataAccess
+		SccLocalPath3 = DataAccess
+		SccProjectUniqueName4 = LMSTS\\LMSTS.csproj
+		SccProjectTopLevelParentUniqueName4 = LMSTS.sln
+		SccProjectName4 = LMSTS
+		SccLocalPath4 = LMSTS
+	EndGlobalSection
+EndGlobal

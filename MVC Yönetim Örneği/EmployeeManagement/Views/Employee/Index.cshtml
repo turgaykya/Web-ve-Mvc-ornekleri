@@ -1,0 +1,68 @@
+﻿@model List<EmployeeManagement.Models.EmployeeListModel>
+@{
+    ViewBag.Title = "Çalışanlar Listesi";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Tüm Çalışanlar</h2>
+
+@*@if (ViewBag.ResultMessage != null)
+    {
+        <div class="alert alert-success">
+            @ViewBag.ResultMessage
+        </div>
+    }*@
+
+@if (TempData["ResultMessage"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["ResultMessage"]
+    </div>
+}
+
+
+<table class="table table-bordered">
+    <colgroup>
+        <col style="width:20%" />
+        <col style="width:20%" />
+        <col style="width:20%" />
+        <col style="width:20%" />
+        <col style="width:10%" />
+        <col style="width:10%" />
+
+    </colgroup>
+    <thead>
+        <tr>
+            <th>Çalışan Adı</th>
+            <th>Çalışan Soyadı</th>
+            <th>Departmanı</th>
+            <th>e-Mail</th>
+            <th></th>
+            <th>
+                @Html.ActionLink("Yeni", "Edit", null, new { Class = "btn btn-default btn-xs" })
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            foreach (var employee in Model)
+            {
+
+                <tr>
+                    <td>@employee.FirstName</td>
+                    <td>@employee.LastName</td>
+                    <td>@employee.DepartmentName</td>
+                    <td>@employee.Email</td>
+                    <td>
+                        @Html.ActionLink("Düzenle", "Edit", new { id = employee.Id }, new { Class = "btn btn-default btn-xs" })
+                    </td>
+                    <td>
+                        @Html.ActionLink("Sil", "Delete", new { id = employee.Id }, new { Class = "btn btn-default btn-xs" })
+
+
+                    </td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>

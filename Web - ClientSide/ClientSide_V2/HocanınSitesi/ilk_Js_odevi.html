@@ -1,0 +1,130 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>ODEV</title>
+</head>
+<body>
+    <!-- search örnek -->
+    <button id="search" onclick="SearchDeneme()">search örnek</button>
+    <p id="SearchTest"></p>
+    <script>
+        //verilen metnin başlangıç indexini buluyor.
+        function SearchDeneme() {
+            var metin = "Test Amaçlı Yazı";
+            var a = metin.search("Yazı");
+            document.getElementById("SearchTest").innerHTML = a;
+        }
+    </script>
+
+    <!-- slice örnek -->
+    <button id="slice" onclick="SliceDeneme()">slice örnek</button>
+    <p id="SliceTest"></p>
+    <script>
+        //dizinin elemanlarını, verdiğimiz başlangıç ve bitişe göre kesiyor.
+        function SliceDeneme() {
+            var kisiler = ["Burak", "Ferhat", "Mehmet", "Can", "AydınHoca", "Serkan"];
+            var kesilenler = kisiler.slice(2, 4);
+            document.getElementById("SliceTest").innerHTML = kesilenler;
+        }
+    </script>
+
+    <!-- replace örnek -->
+    <button id="replace" onclick="ReplaceDeneme()">replace örnek</button>
+    <p id="ReplaceTest">ornek metin bu şekilde</p>
+    <script>
+        //bir metindeki kelimeyi verip başka bir kelimeyle değiştirebiliriz.
+        function ReplaceDeneme() {
+            var string = document.getElementById("ReplaceTest").innerHTML;
+            var degisen = string.replace("metin", "cümle");
+            document.getElementById("ReplaceTest").innerHTML = degisen;
+        }
+    </script>
+
+    <!-- substring örnek -->
+    <button id="substring" onclick="SubstringDeneme()">substring örnek</button>
+    <p id="SubstringTest"></p>
+    <script>
+        //index numarası verilen başlangıç ve bitiş değerlerine göre metni filtreleyerek getirir.
+        function SubstringDeneme() {
+            var string = "Aydın Ayaydın";
+            var yeniString = string.substring(3, 8)
+            document.getElementById("SubstringTest").innerHTML = yeniString
+        }
+    </script>
+
+    <!-- substr örnek -->
+    <button id="substr" onclick="SubstrDeneme()">substr örnek</button>
+    <p id="SubstrTest"></p>
+    <script>
+        //ilk parametresi başlangıç indexi, ikinci parametresi ise kaç karakter alacağıdır.
+        function SubstrDeneme() {
+            var string = "Aydın Ayaydın";
+            var yeniString = string.substr(3, 8)
+            document.getElementById("SubstrTest").innerHTML = yeniString
+        }
+    </script>
+
+    <!-- toUpperCase() örnek -->
+    <button id="toUpperCase" onclick="ToUpperCaseDeneme()">toUpperCase örnek</button>
+    <p id="ToUpperCaseTest"></p>
+    <script>
+        //verilen metnin harflerini büyük yapar.
+        function ToUpperCaseDeneme() {
+            var string = "Aydın Ayaydın";
+            var yeniString = string.toUpperCase()
+            document.getElementById("ToUpperCaseTest").innerHTML = yeniString
+        }
+    </script>
+
+    <!-- toLowerCase() örnek -->
+    <button id="toLowerCase" onclick="ToLowerCaseDeneme()">toLowerCase örnek</button>
+    <p id="ToLowerCaseTest"></p>
+    <script>
+        //verilen metnin harflerini küçük yapar.
+        function ToLowerCaseDeneme() {
+            var string = "Aydın Ayaydın";
+            var yeniString = string.toLowerCase()
+            document.getElementById("ToLowerCaseTest").innerHTML = yeniString
+        }
+    </script>
+
+    <!-- concat örnek -->
+    <button id="concat" onclick="ConcatDeneme()">concat örnek</button>
+    <p id="ConcatTest"></p>
+    <script>
+        //bir diziyi başka bir diziyle birleştirmeye yarar.
+        function ConcatDeneme() {
+            var dizi1 = ["Burak", "Ferhat", "Ayça", "Mehmet"]
+            var dizi2 = ["Can", "Turgay", "Yiğit"]
+            var birlestirilenDizi = dizi1.concat(dizi2)
+            document.getElementById("ConcatTest").innerHTML = birlestirilenDizi;
+        }
+    </script>
+
+    <button id="charAt" onclick="CharAtDeneme()">charAt örnek</button>
+    <p id="CharAtTest">TestAmaçlıMetin</p>
+    <script>
+        //metin içerisinden, index numarasını verdiğimiz harfi getirir.
+        function CharAtDeneme() {
+            var metin = document.getElementById("CharAtTest").innerHTML;
+            var bulunan = metin.charAt(7);
+            document.getElementById("CharAtTest").innerHTML = bulunan;
+        }
+    </script>
+
+
+    <button id="split" onclick="SplitDeneme()">split örnek</button>
+    <p id="SplitTest">bu alan test amaçlı bir yazıdan ibarettir</p>
+    <p id="SonSplit"></p>
+    <script>
+        //verilen karakteri metinden çıkartır ve metni oralardan böler
+        function SplitDeneme() {
+            var metin = document.getElementById("SplitTest").innerHTML;
+            var parcalanan = metin.split("a")
+            document.getElementById("SonSplit").innerHTML = parcalanan;
+        }
+    </script>
+
+
+</body>
+</html>

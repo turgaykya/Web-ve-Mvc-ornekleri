@@ -1,0 +1,200 @@
+﻿ #container{
+            /*border: 1px solid black;*/
+            margin: -8px;
+        }
+        nav{
+            /*border: 1px solid black;*/
+            padding: 2%;
+            box-sizing: border-box;
+            text-align: right;
+        }
+        .navItem{
+            display: inline;    /*tek satır halinde gorunmesini sağlıyor*/   /*ARAŞTIRIN*/
+        }
+        .navItem a{
+            text-decoration: none;/*alt çizgiyi kaldırıyor*/
+            color: dimgray;
+            padding: 1%;  /*iç boşluk*/
+            box-sizing: border-box; /*padding kullanılırken elementin boyundan aldı*/
+
+            /*bu elementin özelliğine transition verdim. değişikliği tamamlama suresi 0.3saniye ve easy geçişin fonksiyonu*/
+            transition: all 0.3s ease;
+        }
+
+        .navItem a:hover{
+            /*color: #bababa;*/
+            color: red;
+        }
+
+        #myName{
+            text-align: left;
+            font-size: 35px;
+            font: 31px 'times new roman', times, serif;
+        }
+
+
+        #content{
+            background-image: url(/img/1.jpg);
+            background-size:  cover;
+            height: 550px;
+            padding-top: 150px;
+            box-sizing: border-box;
+        }
+
+        section{
+            background-color: white;
+            height: 400px;
+            margin: 0 22%; /*yukardan 0 soldan %25 boşluk bıraktık*/   /*PADDING DIS BOSLUK MARGIN IC BOSLUK*/
+            width:800px;
+        }
+
+        figure{
+            width: 50%;
+            float: left;
+            margin: 0;
+        }
+
+        figure img{
+            width: 100%;
+            
+        }
+
+        article{
+            width: 50%;
+            float: left;
+            padding: 6%; /*iç boşluk*/
+            box-sizing: border-box;
+
+            font-family: Arial, sans-serif;
+            color: #193A7F;
+        }
+
+
+       /*article span ----- article'ın altındaki bütün spanlar*/
+       /*article > span ----- article'ın hemen alt seviyesindeki spanlar*/
+       /*article span:first-child ---- article'ın altındaki ilk span*/
+
+       article span:nth-child(1){
+           font-size: 30px;
+           font-weight: bold;
+       }
+       article span:nth-child(2){
+             font-size: 15px;
+           font-weight: bold;
+       }
+
+        .meInfoHeader{
+            font-weight: bold; /*font ağırlığı, yoğunlugu*/
+        }
+
+        .meInfo{
+            font-style: italic;
+        }
+
+        .meInfo a{
+            text-decoration: none;
+            color: #193A7F;
+        }
+
+        footer{
+            background-color: #193A7F;
+            height: 100px;
+            margin: 0 22%;
+            width:800px;
+        }
+
+        .facebook, .linkedin, .instagram, .twitter, .googlePlus{
+            width: 32px;
+            height: 32px;
+            margin: 30px 30px 10px 10px;
+            display: inline-block;
+            background-size: 100% 100%;
+            transition: all 0.3s ease;
+        }
+
+        .facebook:hover, .linkedin:hover, .instagram:hover, .twitter:hover, .googlePlus:hover{
+            transform: rotate(-30deg); /*üzerine gelince dönecek*/
+        }
+
+        .facebook{
+            background-image: url(/img/facebook.png)
+        }
+
+        .linkedin{
+            background-image: url(/img/linkedin.png)
+        }
+
+        .instagram{
+            background-image: url(/img/instagram.png)
+        }
+
+        .twitter{
+            background-image: url(/img/twitter.png)
+        }
+
+        .googlePlus{
+            background-image: url(/img/googleplus.png)
+        }
+
+
+        /*OTHER PAGES*/
+
+        .otherFooter{
+            text-align: center;
+            width: auto;
+            margin: 0;
+        }
+
+        .otherHeader{
+            background-image: url(/img//1.jpg);
+            background-size: cover;
+            height: 100px;
+
+        }
+
+        .otherSection{
+            /*height: auto;*/
+            height: 600px;
+            overflow-y: scroll;
+            color:dimgray;
+            padding: 30px;
+            box-sizing:border-box;
+            font: 14px/1.4em avenir-lt-w01_35-light1475496,sans-serif;
+}
+        table tr th{
+            width: 200px !important;
+        }
+
+        table tr:nth-of-type(2n){
+            background-color: lightcyan !important;
+        }
+
+        .contactInput{
+            width: 100%;
+            margin: 20px;
+            text-align: center;
+            line-height: 30px;
+            border-radius: 20px 0 20px 0;
+            border: 1px solid #193A7F;
+        }
+        .contactInput:focus{
+            outline: none;
+            box-shadow: 0 0 10px 3px #193A7F;    /*ARAŞTIRIN*/
+        }
+
+        /*inputlardan class ı contacyInput ve tipi submit olanı...*/
+        input[class=contactInput][type=submit]{
+            cursor: pointer;
+            width: 50%;
+            background-color: #193A7F !important;
+            color: white;
+            border-radius: 20px;
+            margin-left:25%;
+            transition: all 0.3s ease;
+        }
+
+input[class=contactInput][type=submit]:hover {
+    background-color: white !important;
+    color: #193A7F;
+
+}

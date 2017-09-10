@@ -1,0 +1,16 @@
+﻿#kutu {
+    width: 100px;
+    height: 100px;
+    background-color: darkred;
+    border: 1px solid black;
+}
+
+.farkliKutu{
+    width: 100px;
+    height: 100px;
+    background-color: goldenrod;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+

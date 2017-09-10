@@ -1,0 +1,41 @@
+﻿@model _01_Entities.Subject
+
+@{
+    ViewBag.Title = "Yeni Konu Ekle";
+    Layout = "~/Views/Shared/_TrainerLayout.cshtml";
+}
+
+@if (Model.Id != 0)
+{
+    <h2>Konu  Düzenle</h2>
+}
+else
+{
+    <h2>Yeni Konu Ekle</h2>
+}
+
+@using (Html.BeginForm())
+{
+    <div class="form-group">
+        @Html.LabelFor(s => s.Name, "Konu Adı")
+        @Html.TextBoxFor(s => s.Name, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(s => s.EducationGroupID, "Eğitim Grubu")
+        @Html.DropDownListFor(s => s.EducationGroupID, (SelectList)ViewBag.EducationGroups, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        @if (Model.Id != 0)
+        {
+            <button class="btn btn-primary">Değişiklikleri Kaydet</button>
+        }
+        else
+        {
+            <button class="btn btn-primary">Kaydet</button>
+
+        }
+        <a href="~/Subject/Index" class="btn btn-danger">İptal</a>
+    </div>
+}
+
+

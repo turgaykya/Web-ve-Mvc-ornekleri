@@ -1,0 +1,79 @@
+﻿@model _01_Entities.Topic
+@{
+    ViewBag.Title = "NewTopicAdd";
+    Layout = "~/Views/Shared/_TrainerLayout.cshtml";
+}
+<section class="content-header">
+    @if (Model.Id != 0)
+    {
+        <h1>
+            Topic Güncelleme
+            <small>Forum Konusu ve İçerik güncellenir.</small>
+        </h1>
+    }
+    else
+    {
+        <h1>
+            Topic Oluşturma
+            <small>Forum Konusu ve İçerik eklenir.</small>
+        </h1>
+    }
+    
+    <ol class="breadcrumb">
+        <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
+        <li><a href="#">Forms</a></li>
+        <li class="active">General Elements</li>
+    </ol>
+</section>
+<section class="content">
+    @using (Html.BeginForm("NewTopicAdd", "Forum", FormMethod.Post))
+    {
+        <div class="form-group">
+            <label>Eğitim Grubu</label>
+            <select name="EducationGroupID" class="form-control select2 select2-hidden-accessible" style="width: 100%;" tabindex="-1" aria-hidden="true">
+                @foreach (var item in (SelectList)ViewBag.eduList)
+                {
+                    <option selected="selected" value="@item.Value">@item.Text</option>
+                }
+            </select>     
+        </div>
+
+        <div class="form-group">
+            <label for="exampleInputEmail1">Başlık</label>
+            <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Başlık" name="Head" value="@Model.Head">
+        </div>
+
+        <div class="form-group">
+            <label for="editor1">İçerik</label>
+            <textarea  id="editor1" name="Description" rows="10" cols="80" style="visibility: hidden; display: none;">
+                @Model.Description
+            </textarea>
+            <div id="cke_editor1" class="cke_1 cke cke_reset cke_chrome cke_editor_editor1 cke_ltr cke_browser_webkit" dir="ltr" lang="tr" role="application" aria-labelledby="cke_editor1_arialbl">
+            </div>
+        </div>
+
+      if (Model.Id != 0)
+      {
+
+        <div class="form-group">
+            <div class="box-footer">
+                <button type="submit" class="btn btn-default">Vazgeç</button>
+                <button type="submit" class="btn btn-info pull-right">Güncelle</button>
+            </div>
+        </div>
+      }
+      else
+      {
+            <div class="form-group">
+                <div class="box-footer">
+                    <button type="submit" class="btn btn-default">Vazgeç</button>
+                    <button type="submit" class="btn btn-info pull-right">Oluştur</button>
+                </div>
+            </div>
+        }
+
+    }
+</section>
+
+
+

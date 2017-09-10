@@ -1,0 +1,69 @@
+﻿@model List<NorthwindManagement.Models.CategoryListItemVM>
+    @{
+        Layout = null;
+    }
+
+    <!DOCTYPE html>
+
+    <html>
+    <head>
+        <meta name="viewport" content="width=device-width" />
+        <title>Kategoriler</title>
+        <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="container">
+            <header class="well">
+                <h1>Northwind Inc.</h1>
+            </header>
+
+            <section>
+                <div class="row">
+                    <nav class="col-xs-12 col-sm-4 col-md-3">
+                        <a href="/Employee" class="list-group-item">Çalışanlar</a>
+                        <a href="/Product" class="list-group-item">Ürünler</a>
+                        <a href="/Category" class="list-group-item">Kategoriler</a>
+                    </nav>
+
+                    <div class="col-md-12 col-sm-8 col-md-9" style="min-height:500px">
+                        @* Değişiklik Yapılacak Kısım *@
+
+                        <h2 class="text-center">Kategoriler</h2>
+
+                        <table class="table table-bordered">
+                            <thead>
+                                <tr>
+                                    <th>ID</th>
+                                    <th>Kategori Adı</th>
+                                    <th>#</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var category in Model)
+                                {
+
+                                    <tr>
+                                        <td>@category.Id</td>
+                                    <td>@category.Name</td>
+                                    <td>
+                                        <a href="/Category/Edit/@category.Id" class="btn btn-primary btn-xs">Düzenle</a>
+                                        <a href="#" class="btn btn-danger btn-xs">Sil</a>
+                                    </td>
+
+                                </tr>
+                                }
+                            </tbody>
+                        </table>
+
+
+                    </div>
+                </div>
+            </section>
+            <footer class="well">
+                &copy; 2016 Northwind Inc. Management Panel
+            </footer>
+        </div>
+        <script src="~/Scripts/jquery-1.9.1.min.js"></script>
+        <script src="~/Scripts/bootstrap.min.js"></script>
+    </body>
+</html>

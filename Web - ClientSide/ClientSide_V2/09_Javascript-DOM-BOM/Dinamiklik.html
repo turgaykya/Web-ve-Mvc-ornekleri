@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+</head>
+<body>
+    <script>
+        //Dinamiklik
+
+        // 1. Değişkenlerin kesin tipleri yoktur.
+        var number = 10    //number
+        number = "asd"     //string
+        number = true      //boolean
+
+        // 2. Nesnelere sahip olmadıkları bir field ekleyebiliyorum.
+        var person = { FirstName: "Serkan", LastName: "Soydam" }
+        alert(person.FirstName + " " + person.LastName)
+
+        person.Age = 25
+        alert(person.FirstName + " " + person.LastName + " (" + person.Age + ")")
+
+        // 3. Fonksiyonlarda yazılmamış parametrelere değer göndermek değiliz
+        function getFullName(firstname, lastname) {
+            if (firstname== undefined && lastname == undefined) {
+                return "Parametre gelmedi"
+            }
+
+            return firstName + "" + lastName
+         
+        }
+
+        //alert(getFullName("Aydın", "Ayaydın"))
+        alert(getFullName())
+
+
+        // 4. Fonksiyon parametre almasa da parametre gönderebiliriz.
+        function SayılarıTopla(ogr) {    //arguments aslında params gibi
+            var toplam = 0;
+
+            alert(ogr)
+
+            //arguments: parametre olarak gönderilen tanımlı veya tanımsız bütün değerlerin bulunduğu dizidir.
+            for (var i = 0; i < arguments.length; i++) {
+                toplam += arguments[i]
+            }
+
+            return toplam;
+        }
+
+        alert( SayılarıTopla(2,3,4) )
+
+
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+C:\Users\BA\Desktop\ClientSide_V2\12_Jquery_Uygulama\bin\12_Jquery_Uygulama.dll.config
+C:\Users\BA\Desktop\ClientSide_V2\12_Jquery_Uygulama\bin\12_Jquery_Uygulama.dll
+C:\Users\BA\Desktop\ClientSide_V2\12_Jquery_Uygulama\bin\12_Jquery_Uygulama.pdb
+C:\Users\BA\Desktop\ClientSide_V2\12_Jquery_Uygulama\obj\Debug\12_Jquery_Uygulama.csprojResolveAssemblyReference.cache
+C:\Users\BA\Desktop\ClientSide_V2\12_Jquery_Uygulama\obj\Debug\12_Jquery_Uygulama.dll
+C:\Users\BA\Desktop\ClientSide_V2\12_Jquery_Uygulama\obj\Debug\12_Jquery_Uygulama.pdb
+C:\Users\BURAK\Desktop\ClientSide_V2\12_Jquery_Uygulama\bin\12_Jquery_Uygulama.dll.config
+C:\Users\BURAK\Desktop\ClientSide_V2\12_Jquery_Uygulama\bin\12_Jquery_Uygulama.dll
+C:\Users\BURAK\Desktop\ClientSide_V2\12_Jquery_Uygulama\bin\12_Jquery_Uygulama.pdb
+C:\Users\BURAK\Desktop\ClientSide_V2\12_Jquery_Uygulama\obj\Debug\12_Jquery_Uygulama.csprojResolveAssemblyReference.cache
+C:\Users\BURAK\Desktop\ClientSide_V2\12_Jquery_Uygulama\obj\Debug\12_Jquery_Uygulama.dll
+C:\Users\BURAK\Desktop\ClientSide_V2\12_Jquery_Uygulama\obj\Debug\12_Jquery_Uygulama.pdb

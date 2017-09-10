@@ -1,0 +1,68 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <link href="~/assets/bootstrap/Content/bootstrap.min.css" rel="stylesheet" />
+
+    <style>
+
+        .well{
+            background-color: lightgray;
+            margin-top: 10%;
+            box-shadow: 0 0 20px 5px #62afdc;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <div class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1 well" >
+            <form class="text-center" method="post" >
+                <div>
+                    <img src="http://www.bilgeadam.com/SiteAssets/Images/LogoBilisimGrubu.png" style="width:100%;" />
+                </div>
+                <div class="form-group">
+                    <input type="text" name="userId" class="form-control" placeholder="Kullanıcı Adı..." />
+                </div>
+                <div class="form-group">
+                    <input type="password" name="password" class="form-control" placeholder="Parola..." />
+                </div>
+
+                <div class="form-group">
+                    <input type="checkbox" name="rememberMe" class="" id="remember_me" />
+                    <label for="remember_me" style="cursor: pointer;">Unutma beni. Unutama beni.</label>
+                </div>
+
+                <div style="display: none;" class="form-group  text-center alert alert-danger" id="error-message">@ViewBag.ErrorMessage</div>
+
+                <div class="form-group">
+                    <button class="btn btn-primary">Giriş</button>
+                </div>
+            </form>
+        </div> 
+        <script src="~/assets/bootstrap/Scripts/jquery-3.1.1.min.js"></script>
+        <script>
+            $(document).ready(function () {
+                
+                if ($("#error-message").html() != "")
+                {
+                    $("#error-message").slideDown();
+                    setTimeout(function () {
+                        $("#error-message").slideUp();
+                    },3000)
+                }
+            })
+        </script>
+     
+    </div>
+</body>
+</html>

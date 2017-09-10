@@ -1,0 +1,55 @@
+﻿
+@model List<LMSTS.Models.EducationGroupListModel>
+
+@{
+    ViewBag.Title = "Eğitim Grupları Listesi";
+    Layout = "~/Views/Shared/_TrainerLayout.cshtml";
+}
+
+<h2>Eğitim Grupları Listesi</h2>
+
+@if (TempData["ResultMessage"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["ResultMessage"];
+    </div>
+}
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Grup Adı  </th>
+            <th>Eğitmen Adı </th>
+            <th>Eğitmen Soyadı </th>
+            <th>Açılma Tarihi </th>
+            <th>Kapama Tarihi </th>
+  
+            <th>
+                <a href="~/EducationGroup/Edit" class="btn btn-warning btn-xs" >Yeni Eğitim Grubu Kaydı Aç</a>
+                @*@Html.ActionLink("Yeni Eğitim Grubu Kaydı Aç", "Edit","EducationGroup", null, new { Class = "btn btn-warning btn-xs" })*@
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            foreach (var educationGroup in Model)
+            {
+                <tr>
+                    <td>@educationGroup.Name</td>
+                    <td>@educationGroup.TrainerFirstName</td>
+                    <td>@educationGroup.TrainerLastName</td>
+                    <td>@educationGroup.DateOfCrecation</td>
+                    <td>@educationGroup.DateOfEnd</td>
+       
+
+                    <td>
+                        @Html.ActionLink("Eğitim Grubunun Bilgilerini Güncelle", "Edit", new { id = educationGroup.Id }, new { Class = "btn btn-primary btn-xs" })
+                    </td>
+
+                </tr>
+            }
+        }
+    </tbody>
+</table>
+
+

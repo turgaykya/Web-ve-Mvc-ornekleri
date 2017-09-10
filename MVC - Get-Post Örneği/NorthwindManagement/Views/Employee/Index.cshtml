@@ -1,0 +1,102 @@
+﻿@model List<Employee>
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Çalışan Listesi</title>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <header class="well">
+            <h1>Northwind Inc.</h1>
+        </header>
+
+        <section>
+            <div class="row">
+                <nav class="col-xs-12 col-sm-4 col-md-3">
+                    <a href="/Employee" class="list-group-item">Çalışanlar</a>
+                    <a href="/Product" class="list-group-item">Ürünler</a>
+                    <a href="/Category" class="list-group-item">Kategoriler</a>
+                </nav>
+
+                <div class="col-md-12 col-sm-8 col-md-9" style="min-height:500px">
+                    @* Değişiklik Yapılacak Kısım *@
+
+                    <h2>Çalışan Listesi</h2>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="pull-right">
+                                <a class="btn btn-default" href="/Employee/AddForm">Yeni Çalışan</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <br /><br />
+
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th>Id</th>
+                                <th>Ad</th>
+                                <th>Soyad</th>
+                                <th>Ünvan</th>
+                                <th>Şehir</th>
+                                <th>#</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+
+                            @foreach (var cls in Model)
+                            {
+                                <tr>
+                                    <td>@cls.EmployeeID</td>
+                                    <td>@cls.FirstName</td>
+                                    <td>@cls.LastName</td>
+                                    <td>@cls.Title</td>
+                                    <td>@cls.City</td>
+                                    <td>
+                                        <a href="/Employee/Delete/@cls.EmployeeID" class="btn btn-default btn-xs" @*data-id="@cls.EmployeeID"*@ onclick="DeleteEmployee()">Sil</a>
+                                        <a href="/Employee/UpdateForm/@cls.EmployeeID" class="btn btn-default btn-xs">Güncelleme</a>
+                                    </td>
+
+                                </tr>
+                            }
+
+                        </tbody>
+                    </table>
+
+                </div>
+            </div>
+        </section>
+        <footer class="well">
+            &copy; 2016 Northwind Inc. Management Panel
+        </footer>
+    </div>
+    <script src="~/Scripts/jquery-1.9.1.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+
+    <script>
+        function DeleteEmployee() {
+
+
+            event.preventDefault()
+
+            var result = confirm("Bu kişinin bilgilerini silmek istediğinize emin misiniz?")
+
+            if (result) {
+                //window.location = "/Employee/Delete/" + event.target.getAttribute("data-id")
+                //window.location = "/Employee/Delete/" + event.target.dataset.id
+
+                window.location = event.target.href;
+            }
+        }
+    </script>
+</body>
+</html>

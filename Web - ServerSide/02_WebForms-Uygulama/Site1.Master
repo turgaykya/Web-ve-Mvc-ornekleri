@@ -1,0 +1,50 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="_02_WebForms_Uygulama.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <%--<asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>--%>
+</head>
+<body>
+
+
+    <form id="form1" runat="server">
+        <div class="container">
+            <header class="well">
+                <h1>Northwind Inc.</h1>
+            </header>
+            <section>
+                <div class="row">
+                    <nav class="col-xs-12 col-sm-4 col-md-3">
+                        <div class="list-group">
+                            <a class="list-group-item" href="CategoryListForm.aspx">Kategoriler</a>
+                            <a class="list-group-item" href="ProductListForm.aspx">Ürünler</a>
+                            <a class="list-group-item" href="EmployeeListForm.aspx">Çalışanlar</a>
+                        </div>
+                    </nav>
+                    <div class="col-xs-12 col-sm-8 col-md-9" style="min-height: 500px;">
+
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+
+
+                        
+
+
+                    </div>
+                    <div class="col-md-9">
+                    </div>
+                </div>
+            </section>
+            <footer class="well text-center">&copy; 2016 Northwind Inc All rights Reserved</footer>
+        </div>
+    </form>
+    <script src="Scripts/jquery-1.9.1.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+
+</body>
+</html>

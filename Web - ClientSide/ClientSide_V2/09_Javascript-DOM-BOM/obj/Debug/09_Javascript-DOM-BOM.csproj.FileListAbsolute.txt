@@ -1,0 +1,6 @@
+C:\Users\BA\Desktop\ClientSide_V2\09_Javascript-DOM-BOM\bin\09_Javascript-DOM-BOM.dll.config
+C:\Users\BA\Desktop\ClientSide_V2\09_Javascript-DOM-BOM\bin\09_Javascript-DOM-BOM.dll
+C:\Users\BA\Desktop\ClientSide_V2\09_Javascript-DOM-BOM\bin\09_Javascript-DOM-BOM.pdb
+C:\Users\BA\Desktop\ClientSide_V2\09_Javascript-DOM-BOM\obj\Debug\09_Javascript-DOM-BOM.csprojResolveAssemblyReference.cache
+C:\Users\BA\Desktop\ClientSide_V2\09_Javascript-DOM-BOM\obj\Debug\09_Javascript-DOM-BOM.dll
+C:\Users\BA\Desktop\ClientSide_V2\09_Javascript-DOM-BOM\obj\Debug\09_Javascript-DOM-BOM.pdb

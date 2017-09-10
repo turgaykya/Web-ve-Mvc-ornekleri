@@ -1,0 +1,6 @@
+C:\Users\BA\Desktop\ClientSide_V2\06_Bootstrap_Intro\bin\06_Bootstrap_Intro.dll.config
+C:\Users\BA\Desktop\ClientSide_V2\06_Bootstrap_Intro\bin\06_Bootstrap_Intro.dll
+C:\Users\BA\Desktop\ClientSide_V2\06_Bootstrap_Intro\bin\06_Bootstrap_Intro.pdb
+C:\Users\BA\Desktop\ClientSide_V2\06_Bootstrap_Intro\obj\Debug\06_Bootstrap_Intro.csprojResolveAssemblyReference.cache
+C:\Users\BA\Desktop\ClientSide_V2\06_Bootstrap_Intro\obj\Debug\06_Bootstrap_Intro.dll
+C:\Users\BA\Desktop\ClientSide_V2\06_Bootstrap_Intro\obj\Debug\06_Bootstrap_Intro.pdb

@@ -1,0 +1,6 @@
+C:\Users\BA\Desktop\ClientSide_V2\07_Bootstrap_Uygulama\bin\07_Bootstrap_Uygulama.dll.config
+C:\Users\BA\Desktop\ClientSide_V2\07_Bootstrap_Uygulama\bin\07_Bootstrap_Uygulama.dll
+C:\Users\BA\Desktop\ClientSide_V2\07_Bootstrap_Uygulama\bin\07_Bootstrap_Uygulama.pdb
+C:\Users\BA\Desktop\ClientSide_V2\07_Bootstrap_Uygulama\obj\Debug\07_Bootstrap_Uygulama.csprojResolveAssemblyReference.cache
+C:\Users\BA\Desktop\ClientSide_V2\07_Bootstrap_Uygulama\obj\Debug\07_Bootstrap_Uygulama.dll
+C:\Users\BA\Desktop\ClientSide_V2\07_Bootstrap_Uygulama\obj\Debug\07_Bootstrap_Uygulama.pdb

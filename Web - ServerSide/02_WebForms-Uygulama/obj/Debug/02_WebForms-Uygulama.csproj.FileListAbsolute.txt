@@ -1,0 +1,10 @@
+C:\Users\BA\Desktop\ServerSide_V2\02_WebForms-Uygulama\bin\02_WebForms-Uygulama.dll.config
+C:\Users\BA\Desktop\ServerSide_V2\02_WebForms-Uygulama\bin\02_WebForms-Uygulama.dll
+C:\Users\BA\Desktop\ServerSide_V2\02_WebForms-Uygulama\bin\02_WebForms-Uygulama.pdb
+C:\Users\BA\Desktop\ServerSide_V2\02_WebForms-Uygulama\obj\Debug\02_WebForms-Uygulama.csprojResolveAssemblyReference.cache
+C:\Users\BA\Desktop\ServerSide_V2\02_WebForms-Uygulama\obj\Debug\02_WebForms-Uygulama.dll
+C:\Users\BA\Desktop\ServerSide_V2\02_WebForms-Uygulama\obj\Debug\02_WebForms-Uygulama.pdb
+C:\Users\BA\Desktop\ServerSide_V2\02_WebForms-Uygulama\bin\EntityFramework.dll
+C:\Users\BA\Desktop\ServerSide_V2\02_WebForms-Uygulama\bin\EntityFramework.SqlServer.dll
+C:\Users\BA\Desktop\ServerSide_V2\02_WebForms-Uygulama\bin\EntityFramework.xml
+C:\Users\BA\Desktop\ServerSide_V2\02_WebForms-Uygulama\bin\EntityFramework.SqlServer.xml

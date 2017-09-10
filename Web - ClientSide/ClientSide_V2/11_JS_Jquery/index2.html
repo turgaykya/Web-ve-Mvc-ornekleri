@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link href="benimSitilim.css" rel="stylesheet" />
+    <script src="Scripts/jquery-3.1.1.js"></script>
+
+    <script>
+
+        //function test() {
+        //    $("input[type=button]").click(function () {
+        //        $("#kutu").hide()
+        //    })
+        //}
+
+        $(document).ready(function () {
+            //Ready: onload eventiyle aynı mantıkla çalışır. Onload event daha sağlıklı sonuç üretir.
+
+            //1.Yöntem
+            //$("input[type=button]").click(function () {
+            //    $("#kutu").hide()
+            //})
+
+            //2.Yöntem
+            //a.
+            //$("input[type=button]").on("click", function () {
+            //    $("#kutu").hide()
+            //})
+
+            //b.
+            $("input[type=button]").on({
+                mouseenter: function () {
+                    $(this).css("background-color", "lime")
+                },
+                mouseleave: function () {
+                    $(this).css("background-color", "buttonface")
+                }
+
+            })
+
+            $("input[type=button]:nth-child(1)").on("click", function () {
+                $(".farkliKutu").slideToggle()
+            })
+
+            $("input[type=button]:nth-child(2)").on("click", function () {
+                $(".farkliKutu").slideUp()
+            })
+
+            $("input[type=button]:nth-child(3)").on("click", function () {
+                $(".farkliKutu").slideDown()
+            })
+
+            $("input[type=button]:nth-child(4)").on("click", function () {
+                $(".farkliKutu").fadeIn()
+            })
+
+            $("input[type=button]:nth-child(5)").on("click", function () {
+                $(".farkliKutu").fadeOut(3000)
+            })
+
+            $("input[type=button]:nth-child(6)").on("click", function () {
+                $(".farkliKutu").fadeToggle()
+            })
+
+            $(".farkliKutu").css("float","left")
+
+        })
+
+    </script>
+
+</head>
+<body>
+
+    <input type="button" value="SlideToggle" />
+    <input type="button" value="SlideUp" />
+    <input type="button" value="SlideDown" />
+    <input type="button" value="FadeIn" />
+    <input type="button" value="FadeOut" />
+    <input type="button" value="fadeToggle" />
+
+
+
+
+    <div id="kutu"></div>
+
+    <div class="farkliKutu">1</div>
+    <div class="farkliKutu">2</div>
+    <div class="farkliKutu">3</div>
+    <div class="farkliKutu">4</div>
+    <div class="farkliKutu">5</div>
+
+
+</body>
+</html>

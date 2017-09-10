@@ -1,0 +1,36 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div> 
+
+        <h1>FORM METHODS</h1>
+
+        <form method="get" action="/Tsubasa/AraGet">
+            <input type="text" name="ifade" /><br />
+            <input type="text" name="birDigerIfade"/><br />
+
+            <input type="submit" value="ARA (Get)"/>
+        </form>
+
+        <br /><br /><br /><br /><br />
+
+        <form method="post" action="/Tsubasa/AraPost">
+            <input type="text" name="aranacakKelime" /><br />
+
+            <input type="submit" value="ARA (Post)" />
+        </form>
+
+
+    </div>
+</body>
+</html>

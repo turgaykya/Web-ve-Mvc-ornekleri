@@ -1,0 +1,110 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <style>
+        article {
+            padding: 2%;
+            box-sizing: border-box;
+        }
+
+            article form input {
+                margin-top: 2%;
+            }
+
+            article form button {
+                margin-top: 2%;
+            }
+    </style>
+
+</head>
+
+<body onload="GetPeopleFromLocalStorage()">
+
+    <div class="container">
+        <header class="row">
+            <nav class="navbar navbar-default" role="navigation">
+                <div class="container-fluid">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <!--<a class="navbar-brand" href="#">Brand</a>-->
+                    </div>
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li><a href="index.html">Person Management</a></li>
+                            <!--
+                                Person :
+                                    Id
+                                    FirstName
+                                    LastName
+                                    Phones
+                                    + Department
+                                 -->
+
+                            <li><a href="department.html">Department Managment</a></li>
+                            <!--
+                                + Department :
+                                    + Id
+                                    + Name
+                                    + Description
+                                 -->
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div><!-- /.container-fluid -->
+            </nav>
+        </header>
+
+        <section class="row">
+
+            <article class="col-md-5">
+                <form>
+                    <input class="form-control " type="text" name="firstName" id="firstName" value="" placeholder="Name..." />
+
+                    <input class="form-control" type="text" name="lastName" id="lastName" value="" placeholder="Surname..." />
+
+                    <div id="phone-area">
+
+                        <div class="form-inline" data-osman="kalıcı">
+                            <input class="form-control" type="text" name="Phone" value="" placeholder="Phone..." />
+                            <input type="button" class="btn btn-success" value="+" onclick="AddPhoneBlock(this)" />
+                            <!--<input type="button" class="btn btn-warning" value="-" onclick="RemovePhoneBlock(this)"/>-->
+                        </div>
+
+                    </div>
+
+                    <button class="btn btn-success" onclick="SavePerson(event)"> Save </button>
+                </form>
+
+            </article>
+
+            <aside class="col-md-7">
+                <table id="people-list" class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Surname</th>
+                            <th>Phone</th>
+                            <th>#</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </aside>
+        </section>
+    </div>
+
+    <script src="Scripts/jquery-1.9.1.js"></script>
+    <script src="Scripts/bootstrap.js"></script>
+    <script src="Scripts/default.js"></script>
+   
+</body>
+</html>

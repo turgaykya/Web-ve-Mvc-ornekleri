@@ -1,0 +1,23 @@
+C:\TFS\LMSTS\Business\bin\Debug\Business.dll
+C:\TFS\LMSTS\Business\bin\Debug\Business.pdb
+C:\TFS\LMSTS\Business\bin\Debug\01_Entities.dll
+C:\TFS\LMSTS\Business\bin\Debug\DataAccess.dll
+C:\TFS\LMSTS\Business\bin\Debug\EntityFramework.dll
+C:\TFS\LMSTS\Business\bin\Debug\01_Entities.pdb
+C:\TFS\LMSTS\Business\bin\Debug\DataAccess.pdb
+C:\TFS\LMSTS\Business\bin\Debug\EntityFramework.xml
+C:\TFS\LMSTS\Business\obj\Debug\Business.csprojResolveAssemblyReference.cache
+C:\TFS\LMSTS\Business\obj\Debug\Business.dll
+C:\TFS\LMSTS\Business\obj\Debug\Business.pdb
+D:\BURAK\YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\Business\bin\Debug\Business.dll
+D:\BURAK\YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\Business\bin\Debug\Business.pdb
+D:\BURAK\YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\Business\bin\Debug\01_Entities.dll
+D:\BURAK\YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\Business\bin\Debug\DataAccess.dll
+D:\BURAK\YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\Business\bin\Debug\EntityFramework.dll
+D:\BURAK\YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\Business\bin\Debug\01_Entities.pdb
+D:\BURAK\YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\Business\bin\Debug\DataAccess.pdb
+D:\BURAK\YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\Business\bin\Debug\DataAccess.dll.config
+D:\BURAK\YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\Business\bin\Debug\EntityFramework.xml
+D:\BURAK\YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\Business\obj\Debug\Business.csprojResolveAssemblyReference.cache
+D:\BURAK\YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\Business\obj\Debug\Business.dll
+D:\BURAK\YAZILIM\GİTHUB yedeklenecekler\LMSTS yedek\LMSTS\Business\obj\Debug\Business.pdb

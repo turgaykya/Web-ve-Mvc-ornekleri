@@ -1,0 +1,12 @@
+C:\Users\BA\documents\visual studio 2013\Projects\ClientSide_V2\04_HTML5\bin\04_HTML5.dll.config
+C:\Users\BA\documents\visual studio 2013\Projects\ClientSide_V2\04_HTML5\bin\04_HTML5.dll
+C:\Users\BA\documents\visual studio 2013\Projects\ClientSide_V2\04_HTML5\bin\04_HTML5.pdb
+C:\Users\BA\documents\visual studio 2013\Projects\ClientSide_V2\04_HTML5\obj\Debug\04_HTML5.csprojResolveAssemblyReference.cache
+C:\Users\BA\documents\visual studio 2013\Projects\ClientSide_V2\04_HTML5\obj\Debug\04_HTML5.dll
+C:\Users\BA\documents\visual studio 2013\Projects\ClientSide_V2\04_HTML5\obj\Debug\04_HTML5.pdb
+C:\Users\BURAK\Desktop\ClientSide_V2\04_HTML5\bin\04_HTML5.dll.config
+C:\Users\BURAK\Desktop\ClientSide_V2\04_HTML5\bin\04_HTML5.dll
+C:\Users\BURAK\Desktop\ClientSide_V2\04_HTML5\bin\04_HTML5.pdb
+C:\Users\BURAK\Desktop\ClientSide_V2\04_HTML5\obj\Debug\04_HTML5.csprojResolveAssemblyReference.cache
+C:\Users\BURAK\Desktop\ClientSide_V2\04_HTML5\obj\Debug\04_HTML5.dll
+C:\Users\BURAK\Desktop\ClientSide_V2\04_HTML5\obj\Debug\04_HTML5.pdb

@@ -1,0 +1,253 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <style>
+        article {
+            padding: 2%;
+            box-sizing: border-box;
+        }
+
+            article form input {
+                margin-top: 2%;
+            }
+
+            article form button {
+                margin-top: 2%;
+            }
+    </style>
+</head>
+<body onload="GetDepartmentFromLocalStorage()">
+
+    <div class="container">
+        <header class="row">
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <!--<a class="navbar-brand" href="#">Brand</a>-->
+                    </div>
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li><a href="index.html">Person Management</a></li>
+                            <li><a href="department.html">Department Managment</a></li>
+                            <!--
+                            + Department :
+                                + Id
+                                + Name
+                                + Description
+                             -->
+                        </ul>
+                    </div>
+                </div><!-- /.container-fluid -->
+            </nav>
+        </header>
+
+        <section class="row">
+            <article class="col-md-5">
+                <form>
+                    <input class="form-control" type="text" name="name" id="name" value="" placeholder="DepartmentName..." />
+                    <input class="form-control" type="text" name="description" id="description" value="" placeholder="Description..." />
+                    <button class="btn btn-success" onclick="SaveDepartment(event)"> Save </button>
+                </form>
+            </article>
+
+            <aside class="col-md-7">
+                <table id="department-list" class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th>Department</th>
+                            <th>Description</th>
+                            <th>#</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </aside>
+        </section>
+    </div>
+
+    <script src="Scripts/jquery-1.9.1.js"></script>
+    <script src="Scripts/bootstrap.js"></script>
+
+    <script>
+
+        var currentDepartmentId = 1
+
+        var Department = function () {
+            this.Id = 0
+            this.Name = ""
+            this.Description = ""
+        }
+
+        var departmentList = []
+
+        function SaveDepartment(event) {
+
+            event.preventDefault();
+
+            var newDepartment
+            var isUpdate = false;
+
+            if (event.target.getAttribute("data-departmentId")) {
+                //guncelleme yapılacak yer
+                for (var i = 0; i < departmentList.length; i++) {
+                    if (departmentList[i].Id == event.target.getAttribute("data-departmentId")) {
+                        newDepartment = departmentList[i]
+                        isUpdate = true;
+                        break;
+                    }
+                }
+            }
+            else {
+                //yeni kayıt yapılacak yer
+                newDepartment = new Department();
+                newDepartment.Id = currentDepartmentId++;
+            }
+
+            newDepartment.Name = document.getElementById("name").value
+            newDepartment.Description = document.getElementById("description").value
+
+            if (!isUpdate) {
+                departmentList.push(newDepartment)
+                ClearForm()
+            }
+            else {
+                ClearForm(document.querySelector("form .btn-danger"))
+            }
+
+            RefreshList();
+            SaveDepartmentToLocalStorage()
+        }
+
+        function ClearForm(cancelButton) {
+            //form temizlik
+
+            var formInputs = document.querySelectorAll("form input[type=text]")
+            for (var i = 0; i < formInputs.length; i++) {
+                formInputs[i].value = ""
+            }
+
+            if (cancelButton) {
+                cancelButton.remove()
+            }
+
+            document.querySelector("form button").textContent = "Save"
+            document.querySelector("form button").removeAttribute("data-departmentId")
+        }
+
+        function RefreshList() {
+            //tabloyu yenile
+
+            var table = document.getElementById("department-list")
+            table.tBodies[0].innerHTML = ""
+
+            for (var i = 0; i < departmentList.length; i++) {
+                var tr = document.createElement("tr")
+
+                var tdName = document.createElement("td")
+                tdName.textContent = departmentList[i].Name
+                tr.appendChild(tdName)
+
+                var tdDescription = document.createElement("td")
+                tdDescription.textContent = departmentList[i].Description
+                tr.appendChild(tdDescription)
+
+
+                //Anothers
+                var tdOther = document.createElement("td")
+                tdOther.innerHTML = "<a href='#' onclick='FillForm({DEPARTMENTID}, event)'>Update</a> | <a href='#' onclick='RemoveDepartment({DEPARTMENTID}, event)'>Remove</a>"
+                .replace("{DEPARTMENTID}", departmentList[i].Id).replace("{DEPARTMENTID}", departmentList[i].Id)
+                tr.appendChild(tdOther)
+
+                table.tBodies[0].appendChild(tr)
+            }
+        }
+
+        function FillForm(id, event) {
+
+            debugger
+
+            ClearForm();
+
+            event.preventDefault();
+
+            var department
+
+            for (var i = 0; i < departmentList.length; i++) {
+                if (departmentList[i].Id == id) {
+                    department = departmentList[i]
+                    break;
+                }
+            }
+
+            document.getElementById("name").value = department.Name
+            document.getElementById("description").value = department.Description
+
+            var saveButton = document.querySelector("form button")
+            saveButton.textContent = "Update"
+
+            var cancelButton = document.createElement("button")
+            cancelButton.className = "btn btn-danger"
+            cancelButton.textContent = "Cancel"
+            cancelButton.addEventListener("click", function () {
+                ClearForm(this)
+            })
+
+            if (document.querySelectorAll("form button").length < 2) {
+                saveButton.after(cancelButton)
+            }
+
+            saveButton.setAttribute("data-departmentId", department.Id.toString())
+        }
+
+        function RemoveDepartment(id, event) {
+
+            event.preventDefault();
+
+            var result = confirm("Silmek istetiğinizden emin misiniz ?")
+            if (result) {
+                for (var i = 0; i < departmentList.length; i++) {
+                    if (departmentList[i].Id == id) {
+                        departmentList.splice(i, 1)
+                        break
+                    }
+                }
+            }
+
+            RefreshList()
+
+            SaveDepartmentToLocalStorage()
+
+
+        }
+
+        function SaveDepartmentToLocalStorage() {
+            localStorage.setItem("currentDepartmentId", currentDepartmentId)
+            localStorage.setItem("departmentList", JSON.stringify(departmentList))
+        }
+
+        function GetDepartmentFromLocalStorage() {
+            if (localStorage.getItem("departmentList")) {
+                var stringJSON = localStorage.getItem("departmentList")
+                departmentList = JSON.parse(stringJSON)
+            }
+
+            if (localStorage.getItem("currentDepartmentId")) {
+                currentDepartmentId = parseInt(localStorage.getItem("currentdepartmentId"))
+            }
+
+            RefreshList()
+        }
+
+    </script>
+
+</body>
+</html>

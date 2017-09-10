@@ -1,0 +1,40 @@
+C:\Users\BA\Desktop\ServerSide_V2\01_WebForms_Intro\bin\roslyn\csc.exe
+C:\Users\BA\Desktop\ServerSide_V2\01_WebForms_Intro\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\BA\Desktop\ServerSide_V2\01_WebForms_Intro\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\BA\Desktop\ServerSide_V2\01_WebForms_Intro\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\BA\Desktop\ServerSide_V2\01_WebForms_Intro\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\BA\Desktop\ServerSide_V2\01_WebForms_Intro\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\BA\Desktop\ServerSide_V2\01_WebForms_Intro\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\BA\Desktop\ServerSide_V2\01_WebForms_Intro\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\BA\Desktop\ServerSide_V2\01_WebForms_Intro\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\BA\Desktop\ServerSide_V2\01_WebForms_Intro\bin\roslyn\vbc.exe
+C:\Users\BA\Desktop\ServerSide_V2\01_WebForms_Intro\bin\roslyn\VBCSCompiler.exe
+C:\Users\BA\Desktop\ServerSide_V2\01_WebForms_Intro\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\BA\Desktop\ServerSide_V2\01_WebForms_Intro\bin\01_WebForms_Intro.dll.config
+C:\Users\BA\Desktop\ServerSide_V2\01_WebForms_Intro\bin\01_WebForms_Intro.dll
+C:\Users\BA\Desktop\ServerSide_V2\01_WebForms_Intro\bin\01_WebForms_Intro.pdb
+C:\Users\BA\Desktop\ServerSide_V2\01_WebForms_Intro\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\BA\Desktop\ServerSide_V2\01_WebForms_Intro\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\BA\Desktop\ServerSide_V2\01_WebForms_Intro\obj\Debug\01_WebForms_Intro.csprojResolveAssemblyReference.cache
+C:\Users\BA\Desktop\ServerSide_V2\01_WebForms_Intro\obj\Debug\01_WebForms_Intro.dll
+C:\Users\BA\Desktop\ServerSide_V2\01_WebForms_Intro\obj\Debug\01_WebForms_Intro.pdb
+C:\Users\Asus\Desktop\Web & Mvc\ServerSide_V2\01_WebForms_Intro\bin\roslyn\csc.exe
+C:\Users\Asus\Desktop\Web & Mvc\ServerSide_V2\01_WebForms_Intro\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Asus\Desktop\Web & Mvc\ServerSide_V2\01_WebForms_Intro\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Asus\Desktop\Web & Mvc\ServerSide_V2\01_WebForms_Intro\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Asus\Desktop\Web & Mvc\ServerSide_V2\01_WebForms_Intro\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Asus\Desktop\Web & Mvc\ServerSide_V2\01_WebForms_Intro\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Asus\Desktop\Web & Mvc\ServerSide_V2\01_WebForms_Intro\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Asus\Desktop\Web & Mvc\ServerSide_V2\01_WebForms_Intro\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Asus\Desktop\Web & Mvc\ServerSide_V2\01_WebForms_Intro\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Asus\Desktop\Web & Mvc\ServerSide_V2\01_WebForms_Intro\bin\roslyn\vbc.exe
+C:\Users\Asus\Desktop\Web & Mvc\ServerSide_V2\01_WebForms_Intro\bin\roslyn\VBCSCompiler.exe
+C:\Users\Asus\Desktop\Web & Mvc\ServerSide_V2\01_WebForms_Intro\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Asus\Desktop\Web & Mvc\ServerSide_V2\01_WebForms_Intro\bin\01_WebForms_Intro.dll.config
+C:\Users\Asus\Desktop\Web & Mvc\ServerSide_V2\01_WebForms_Intro\bin\01_WebForms_Intro.dll
+C:\Users\Asus\Desktop\Web & Mvc\ServerSide_V2\01_WebForms_Intro\bin\01_WebForms_Intro.pdb
+C:\Users\Asus\Desktop\Web & Mvc\ServerSide_V2\01_WebForms_Intro\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Asus\Desktop\Web & Mvc\ServerSide_V2\01_WebForms_Intro\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Asus\Desktop\Web & Mvc\ServerSide_V2\01_WebForms_Intro\obj\Debug\01_WebForms_Intro.csprojResolveAssemblyReference.cache
+C:\Users\Asus\Desktop\Web & Mvc\ServerSide_V2\01_WebForms_Intro\obj\Debug\01_WebForms_Intro.dll
+C:\Users\Asus\Desktop\Web & Mvc\ServerSide_V2\01_WebForms_Intro\obj\Debug\01_WebForms_Intro.pdb

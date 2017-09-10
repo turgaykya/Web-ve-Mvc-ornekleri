@@ -1,0 +1,12 @@
+C:\Users\BA\documents\visual studio 2013\Projects\ClientSide_V2\05-Html-Css-Uygulama\bin\05-Html-Css-Uygulama.dll.config
+C:\Users\BA\documents\visual studio 2013\Projects\ClientSide_V2\05-Html-Css-Uygulama\bin\05-Html-Css-Uygulama.dll
+C:\Users\BA\documents\visual studio 2013\Projects\ClientSide_V2\05-Html-Css-Uygulama\bin\05-Html-Css-Uygulama.pdb
+C:\Users\BA\documents\visual studio 2013\Projects\ClientSide_V2\05-Html-Css-Uygulama\obj\Debug\05-Html-Css-Uygulama.dll
+C:\Users\BA\documents\visual studio 2013\Projects\ClientSide_V2\05-Html-Css-Uygulama\obj\Debug\05-Html-Css-Uygulama.pdb
+C:\Users\BA\documents\visual studio 2013\Projects\ClientSide_V2\05-Html-Css-Uygulama\obj\Debug\05-Html-Css-Uygulama.csprojResolveAssemblyReference.cache
+C:\Users\BURAK\Desktop\ClientSide_V2\05-Html-Css-Uygulama\bin\05-Html-Css-Uygulama.dll.config
+C:\Users\BURAK\Desktop\ClientSide_V2\05-Html-Css-Uygulama\bin\05-Html-Css-Uygulama.dll
+C:\Users\BURAK\Desktop\ClientSide_V2\05-Html-Css-Uygulama\bin\05-Html-Css-Uygulama.pdb
+C:\Users\BURAK\Desktop\ClientSide_V2\05-Html-Css-Uygulama\obj\Debug\05-Html-Css-Uygulama.csprojResolveAssemblyReference.cache
+C:\Users\BURAK\Desktop\ClientSide_V2\05-Html-Css-Uygulama\obj\Debug\05-Html-Css-Uygulama.dll
+C:\Users\BURAK\Desktop\ClientSide_V2\05-Html-Css-Uygulama\obj\Debug\05-Html-Css-Uygulama.pdb

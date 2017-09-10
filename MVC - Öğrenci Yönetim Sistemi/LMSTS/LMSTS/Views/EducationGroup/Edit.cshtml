@@ -1,0 +1,79 @@
+﻿@model _01_Entities.EducationGroup
+
+
+@{
+    ViewBag.Title = "Eğitim Grubu Bilgilerini Düzenle";
+    Layout = "~/Views/Shared/_TrainerLayout.cshtml";
+}
+
+@if (Model.Id != 0)
+{
+    <h2>Eğitim Grubu Bilgilerini Düzenle</h2>
+
+}
+else
+{
+    <h2>Yeni Eğitim Grubu Ekle</h2>
+}
+
+@using (Html.BeginForm())
+{
+    <div class="form-group">
+
+        @Html.TextBoxFor(s => s.Name, new { @class = "form-control" })
+    </div>
+
+ 
+    <div class="form-group">
+        @Html.LabelFor(s => s.DateOfEnd, "Kapanma Tarihi")
+        @Html.TextBoxFor(s => s.DateOfEnd, new {
+       @class = "form-control"})
+    </div>
+    <br />
+    <div class="form-group">
+        @if (Model.Id != 0)
+        {
+              <h5><b>Öğrenci Listeniz</b></h5>
+            <div id="student-area">
+            <div class="form-inline">
+
+                <div class="form-inline">
+
+                    @Html.DropDownList("studentId", (MultiSelectList)ViewBag.SelectStudentList, new { multiple = "multiple" })
+                    <br />
+                    <h5><b>Öğrenci Ekle</b></h5>
+
+                    <div class="form-inline">
+
+                        @Html.DropDownList("notStudentId", (MultiSelectList)ViewBag.NotSelectStudentList, new { multiple = "multiple" })
+                        <br />
+                    </div>
+                </div>
+                </div>
+        </div>
+            <button class="btn btn-primary">Değişiklikleri Kaydet</button>
+        }
+        else
+        {
+            <h5><b>Öğrenci Seç</b></h5>
+            <div id="student-area">
+                <div class="form-inline">
+
+                    <div class="form-inline">
+
+                        @Html.DropDownList("notStudentId", (MultiSelectList)ViewBag.NotSelectStudentList, new { multiple = "multiple" })
+                        <br />
+                    </div>
+                </div>
+
+            </div>
+        <button class="btn btn-primary">Kaydet</button>
+        }
+        <a href="~/EducationGroup/Index" class="btn btn-danger">İptal</a>
+    </div>
+}
+
+
+
+
+

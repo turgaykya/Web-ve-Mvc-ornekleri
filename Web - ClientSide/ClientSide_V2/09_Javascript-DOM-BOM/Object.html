@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+</head>
+<body>
+
+    <input type="text" id="name" placeholder="İsim" />
+    <input type="text" id="surname" placeholder="Soyisim" />
+    <input type="text" id="title" placeholder="Ünvan" />
+
+    <br />
+    <input type="button" value="Göster" onclick="KişiGöster()" />
+
+    <script>
+        //var kişi = { Ad: "", Soyad: "" }
+
+        function Kişi(ad, soyad) {
+            this.Ad = ad
+            this.Soyad = soyad
+        }
+
+        var Kitap = function () {
+            this.Ad = ""
+            this.Yazar = ""
+        }
+
+        var kişiListesi = []
+
+        function KişiGöster() {
+            ////var kişi = { Ad: "", Soyad: "" }
+
+
+            var adText = document.getElementById("name")
+            var soyadText = document.getElementById("surname")
+            var titleText = document.getElementById("title")
+
+            //kişi.Ad = adText.value
+            //kişi.Soyad = soyadText.value
+            //kişi.Title = titleText.value
+
+            var biri = new Kişi();
+            biri.Ad = adText.value              //Kişi Class'ının property'si
+            biri.Soyad = soyadText.value        //Kişi Class'ının property'si
+
+            var kitap = new Kitap()
+            kitap.Ad = "Fareler ve İnsanlar"        
+            kitap.Yazar = "İsmail Can Ateş"         
+
+
+            //biri.Ad = adText.value
+            //biri.Soyad = soyadText.value
+
+            biri.Title = titleText.value  //Kişi Class'ından instance alınıp oluşturulan nesneye dinamik property'si
+
+            biri.Kitap = kitap  //Kişi Class'ından instance alınıp oluşturulan nesneye dinamik property'si
+
+            kişiListesi.push(biri)
+
+            alert("Kişi Listesine Başarı ile Kaydedildi")
+  
+            adText.value = ""
+            soyadText.value = ""
+            titleText.value = ""
+
+        }
+    </script>
+</body>
+</html>

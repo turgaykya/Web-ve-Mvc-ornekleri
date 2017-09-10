@@ -1,0 +1,18 @@
+C:\Users\BA\documents\visual studio 2013\Projects\ClientSide_V2\WebApplication1\bin\WebApplication1.dll.config
+C:\Users\BA\documents\visual studio 2013\Projects\ClientSide_V2\WebApplication1\bin\WebApplication1.dll
+C:\Users\BA\documents\visual studio 2013\Projects\ClientSide_V2\WebApplication1\bin\WebApplication1.pdb
+C:\Users\BA\documents\visual studio 2013\Projects\ClientSide_V2\WebApplication1\obj\Debug\01_HTML-Intro.csprojResolveAssemblyReference.cache
+C:\Users\BA\documents\visual studio 2013\Projects\ClientSide_V2\WebApplication1\obj\Debug\WebApplication1.dll
+C:\Users\BA\documents\visual studio 2013\Projects\ClientSide_V2\WebApplication1\obj\Debug\WebApplication1.pdb
+C:\Users\BURAK\Desktop\ClientSide_V2\WebApplication1\bin\WebApplication1.dll.config
+C:\Users\BURAK\Desktop\ClientSide_V2\WebApplication1\bin\WebApplication1.dll
+C:\Users\BURAK\Desktop\ClientSide_V2\WebApplication1\bin\WebApplication1.pdb
+C:\Users\BURAK\Desktop\ClientSide_V2\WebApplication1\obj\Debug\01_HTML-Intro.csprojResolveAssemblyReference.cache
+C:\Users\BURAK\Desktop\ClientSide_V2\WebApplication1\obj\Debug\WebApplication1.dll
+C:\Users\BURAK\Desktop\ClientSide_V2\WebApplication1\obj\Debug\WebApplication1.pdb
+C:\Users\BA\Desktop\ClientSide_V2\WebApplication1\bin\WebApplication1.dll.config
+C:\Users\BA\Desktop\ClientSide_V2\WebApplication1\bin\WebApplication1.dll
+C:\Users\BA\Desktop\ClientSide_V2\WebApplication1\bin\WebApplication1.pdb
+C:\Users\BA\Desktop\ClientSide_V2\WebApplication1\obj\Debug\01_HTML-Intro.csprojResolveAssemblyReference.cache
+C:\Users\BA\Desktop\ClientSide_V2\WebApplication1\obj\Debug\WebApplication1.dll
+C:\Users\BA\Desktop\ClientSide_V2\WebApplication1\obj\Debug\WebApplication1.pdb

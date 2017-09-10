@@ -1,0 +1,97 @@
+﻿body {
+            background-image: url('img/background.jpg');
+            background-size: cover;
+        }
+
+        #container {
+            background-color: rgba(255,255,255,0.6);
+            width: 80%;
+            margin-left: 10%;
+            margin-top: 5%; /* Bu yüzde neyin yüzdesi ? */
+            height: 700px;
+            border-radius: 20px 20px 0 0; /*solüst, sağüst, sağalt, solalt*/
+            /*border: 1px solid red;*/
+        }
+
+        header {
+            /*border: 1px solid black;*/
+            height: 200px;
+            text-align: right;
+            line-height: 200px;
+            padding: 2%;
+            box-sizing: border-box;
+            background-image: url(/img/banner.jpg);
+            background-size: 100% 100%;
+            border-radius: 20px 20px 0 0; /*solüst, sağüst, sağalt, solalt*/
+        }
+
+        nav {
+            /*border: 1px solid black;*/
+            width: 30%;
+            padding: 2%;
+            box-sizing: border-box;
+            float: left;
+        }
+
+            nav input {
+                width: 100%;
+            }
+
+            nav ul {
+                list-style-type: none; /*Noktaları siler*/
+            }
+
+                nav ul li {
+                    margin: 10px;
+                    background-color: goldenrod;
+                    height: 20px;
+                }
+
+                    nav ul li:hover {
+                        background-color: black;
+                    }
+
+                    nav ul li a:hover {
+                        font-size: 20px;
+                        color: goldenrod;
+                        /*background-color: azure;*/
+                    }
+
+                    nav ul li a {
+                        text-decoration: none; /*alt çizgiler gidiyor.*/
+                        color: darkred;
+                    }
+
+        content {
+            /*border: 1px solid black;*/
+            float: left;
+            width: 69%;
+            /*height: 400px;*/
+        }
+
+        footer {
+            height: 50px;
+            /*border: 1px solid black;*/
+            text-align: center;
+            line-height: 50px;
+            background-color: gold;
+            border-radius: 0 0 20px 20px; /*solüst, sağüst, sağalt, solalt*/
+        }
+
+        section {
+            /*border: 1px solid black;*/
+            width: 85%;
+            float: left;
+            padding: 2%;
+            box-sizing: border-box;
+        }
+
+        aside {
+            width: 14%;
+            float: left;
+            padding: 6%;
+            box-sizing: border-box;
+            background-color: goldenrod;
+            margin-top: 5%;
+            border-radius: 20px;
+        }

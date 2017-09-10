@@ -1,0 +1,147 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <style>
+        input {
+            margin-top: 2% !important;
+        }
+
+        .borderRed {
+            border: 1px solid red !important;
+        }
+    </style>
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <script src="scripts/jquery-3.1.1.js"></script>
+    <script>
+        $(document).ready(function () {
+
+            $("input[type=button]").click(function () {
+                $("input").each(function () {
+                    if (this.value == "") {
+                        $("#" + this.id).addClass("borderRed")
+                    }
+                })
+
+                if (!document.getElementById("error")) {
+                    if ($("input[type=checkbox]").prop("checked") == false) {
+                        var label = document.createElement("label")
+                        label.textContent = "Üyelik sözleşmesini onaylayınız"
+                        label.id = "error"
+                        label.style = "color:red"
+                        document.querySelector("input[type=checkbox]").parentElement.appendChild(label)
+                    }
+                }
+            })
+            $("input").keypress(function () {
+                        $( this).removeClass("borderRed")
+            })
+            $("input[type=checkbox]").change(function () {
+
+                $("#error").remove()
+            })
+        })
+
+    </script>
+</head>
+<body>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+                <h2 class="text-center">Kullanıcı Kayıt Bilgileri</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="form-group">
+                <div class="col-md-2 col-lg-offset-3">
+                    <label for="Name">
+                        Adı:
+                    </label>
+                </div>
+                <div class="col-md-4">
+                    <input type="text" class="form-control" name="Name" id="Name" />
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="form-group">
+                <div class="col-md-2 col-lg-offset-3">
+                    <label for="SurName">
+                        Soyadı:
+                    </label>
+                </div>
+                <div class="col-md-4">
+                    <input type="text" class="form-control" name="SurName" id="SurName" />
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="form-group">
+                <div class="col-md-2 col-lg-offset-3">
+                    <label for="Mail">
+                        Mail Adresi:
+                    </label>
+                </div>
+                <div class="col-md-4">
+                    <input type="email" class="form-control" name="Mail" id="Mail" />
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="form-group">
+                <div class="col-md-2 col-lg-offset-3">
+                    <label for="MailConfirm">
+                        Mail Adresi Onay:
+                    </label>
+                </div>
+                <div class="col-md-4">
+                    <input type="email" class="form-control" name="MailConfirm" id="MailConfirm" />
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="form-group">
+                <div class="col-md-2 col-lg-offset-3">
+                    <label for="Password">
+                        Parola:
+                    </label>
+                </div>
+                <div class="col-md-4">
+                    <input type="password" class="form-control" name="Password" id="Password" />
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="form-group">
+                <div class="col-md-2 col-lg-offset-3">
+                    <label for="PasswordConfirm">
+                        Parola Onay:
+                    </label>
+                </div>
+                <div class="col-md-4">
+                    <input type="password" class="form-control" name="PasswordConfirm" id="PasswordConfirm" />
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="form-group">
+                <div class="col-md-6 col-lg-offset-3">
+                    <label for="confirm">
+                        <input type="checkbox" class="form" name="Confirm" id="confirm" /> Kullanıcı sözleşmesini okudum onaylıyorum.
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="form-group">
+                <div class="col-md-6 col-lg-offset-3">
+                    <input type="Button" name="save" id="save" value="Kaydet" class="btn btn-success" style="width: 100%;" />
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

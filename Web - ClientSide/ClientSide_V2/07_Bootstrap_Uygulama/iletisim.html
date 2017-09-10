@@ -1,0 +1,174 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <link href="Content/main.css" rel="stylesheet" />
+</head>
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <img src="img/logo.png" />
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="#">Anasayfa</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Google+</a></li>
+
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projeler <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Emlak Yazılımı</a></li>
+                            <li><a href="#">Kütüphane Otomasyonu</a></li>
+                            <li><a href="#">Hastane Otomasyonu</a></li>
+
+                        </ul>
+                    </li>
+                    <li class ="active"><a href=" #haydar">İletişim</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <button type="button" class="btn btn-success">İletişime Geç</button>
+                    </li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <ol class="breadcrumb">
+                    <li><a href="#"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a></li>
+                    <li class="active">İletişim</li>
+                </ol>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <form>
+                    <div class="alert alert-success" role="alert">
+                        <strong>Teşekkürler</strong> Mesajınız alınmıştır.
+
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="fullName">Ad & Soyad</label>
+                                <input type="text" class="form-control" id="fullName">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" class="form-control" id="email">
+                            </div>
+                        </div>                       
+                    </div>
+                    <!-- row bitişi -->
+                    <div class="form-group">
+                        <label for="category">Kategori seçiniz</label>
+                        <select class="form-control" id="category">
+                            <option>Hosting</option>
+                            <option>Emlak Scripti</option>
+                            <option>Hastane Otomasyonu</option>
+                            <option>Kütüphane Otomasyonu</option>
+                            <option>5</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group form-group-lg">
+                        <label for="title">Başlık</label>
+                        <input type="text" class="form-control" id="title" />
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" rows="3" placeholder="Birşeyler yazınız..."></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="radio-inline">
+                            <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="1"> Erkek
+                        </label>
+                        <label class="radio-inline">
+                            <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="2"> Kadın
+                        </label>
+                        <label class="radio-inline">
+                            <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="3"> Bülent
+                        </label>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="exampleInputFile">Dosya Ekleyiniz</label>
+                        <input type="file" id="exampleInputFile">
+                        <p class="help-block">Lütfen sadece jpg,png ve gif uzantılı dosyaları ekleyiniz.</p>
+                    </div>
+
+                    <div class="form-group text-right">
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox" value="">
+                                Kullanıcı koşullarını okdum ve kabul ediyorum.
+                            </label>
+                        </div>
+                    </div>
+
+                    <button class="btn btn-danger btn-lg" type="submit" style="width:100%">Gönder</button>
+
+                </form>
+            </div>
+        </div>
+        </div>
+    <footer id="haydar">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>Telefon</h3>
+                    <p> 0555 555 55 55</p>
+                    <p> 0555 887 77 84</p>
+                </div>
+                <div class="col-md-4">
+                    <h3>Email</h3>
+                    <p>Email</p>
+                    <p>burak.kaya@bilgeadam.com</p>
+                </div>
+                <div class="col-md-4">
+                    <h3>Sosyal Medya</h3>
+                    <ul class="sosyal">
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="Scripts/jquery-1.9.1.js"></script>
+    <script src="Scripts/bootstrap.js"></script>
+
+
+</body>
+</html>
+
+
+
+<!-- tympanus.net/codrops/ -->
+<!-- codepen.io -->
+<!-- getbootstrap -->
+
+<!-- bootsnipp.com -->

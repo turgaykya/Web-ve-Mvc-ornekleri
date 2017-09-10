@@ -1,0 +1,54 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Employee Management - @ViewBag.Title</title>
+    <link href="~/assets/bootstrap/Content/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body class="container">
+    <header class="well">
+        <div class="row">
+            <h1 class="col-md-8">
+                Employee Management
+            </h1>
+            <div class="col-md-4">
+               @*@Html.Action("LoginUser","Home")*@
+               @*@Html.Partial("LoginUser")*@
+               
+                @{
+                    Html.RenderAction("LoginUser","Home");
+               }
+            </div>
+        </div>              
+    </header>
+    <section>
+        <div class="row">
+            <div class="col-xs-12 col-sm-4 col-md-3">
+
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        <a href="/">Giriş</a>
+                    </li>
+
+                    <li class="list-group-item">
+                        <a href="/Department">Departmanlar</a>
+                    </li>
+
+                    <li class="list-group-item">
+                        <a href="/Employee">Çalışanlar</a>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="col-xs-12 col-sm-8 col-md-9">
+                @RenderBody()
+            </div>
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,159 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+</head>
+<body>
+    
+    <input type="button" value="saati goster" onclick="SaatGöster()" />
+    <input type="button" value="kare al" onclick="alert(KareAl(5))" />
+    <input type="button" value="Topla" onclick="alert(Topla(12,12,12))" />
+    <input type="button" value="KutuGizle" onclick="KutuyuGizle()" />
+    <input type="button" value="KutuyGöster" onclick="KutuyuGöster()" />
+    <input type="button" value="Kutuyu Kaydır" onclick="DiviKaydır()" />
+    <input type="button" value="Kutuya Yaz" onclick="KutuyaYaz()" />
+
+
+
+    <div id="kutu">
+        <input type="button"  value="button"/>
+    </div>
+
+
+
+    <hr />
+    <button onclick="Kapat()">
+        Sekmeyi Kapat
+    </button>
+
+
+    <style>
+        #kutu{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            /*transition: all .8s ease;*/
+            transition: all 2s cubic-bezier(0.4, 1.54, 0.34,-0.53);
+        }
+
+    </style>
+
+    <script>
+        //FUNCTIONS
+        /*
+            C#
+
+            public int Fonksiyonİsmi(int a)
+            {
+            return 56;
+            }
+
+        */
+        
+
+        function SaatGöster() {
+            alert(new Date())
+        }
+
+        function KareAl(x) {
+            return x*x
+        }
+
+        function Topla(sayı1, sayı2) {
+            return sayı1 + sayı2;
+        }
+
+        function Topla(sayı1, sayı2, sayı3) {
+            return sayı1 + sayı2 + sayı3;
+        }
+
+        //DOM (Document Object Model)     -- elemente DOM deriz.
+
+        function KutuyuGizle() {
+            debugger;
+            var element = document.getElementById("kutu")
+            //element.style.display = "none"
+            element.style.opacity = "0"
+            
+        }
+
+        function KutuyuGöster() {
+            var element = document.getElementById("kutu")
+            //element.style.display(block)
+            //element.style.opacity = "1"
+
+            kutu.style.opacity = "1"    // cok tercih edilen bir yontem değildir.
+        }
+
+        function DiviKaydır() {
+            document.getElementById
+            ("kutu").style.marginLeft = "250px"
+        }
+
+        function KutuyaYaz() {
+            //document.getElementById
+            //("kutu").innerHTML = "<a href='http://google.com'>GOOGLE</a>"
+
+            //document.getElementById("kutu").innerHTML += "<br />" + Math.floor(Math.random() * 100)
+            //document.getElementById("kutu").innerHTML += "<br />" + Math.floor(20 + Math.random() * 20)
+            document.getElementById("kutu").innerHTML += "<br />" + Math.floor(10 + Math.random() * 55)
+
+            /*
+                Mesela 27 ile 43 arasında sayı bulmak icin
+                KucukSayı + (random * BuyukSayı-KucukSayı)
+            */
+
+
+        }
+
+        console.log("Consol'a yazı yazdık")
+        console.warn("Uyarı: Loglar içerisinde daha belirgin göstermek için: Başka kullanımları için ARAŞTIRIN")
+
+        var sayı = 123.4556
+        console.log(Math.floor(sayı));
+        console.log(Math.ceil(sayı));
+        console.log(Math.round(sayı));
+        
+        console.log(Math.random())
+
+
+
+        //BOM (Browser Object Model)
+
+        /*
+        Window
+        Screen
+        Location
+        History
+        Navigator
+        Popup Alert
+        Timing
+        Cookies
+        */
+
+
+
+
+
+
+
+
+        function Kapat() {
+            //window.close();
+            //alert(window.location.hostname)
+            history.back()
+        }
+
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>

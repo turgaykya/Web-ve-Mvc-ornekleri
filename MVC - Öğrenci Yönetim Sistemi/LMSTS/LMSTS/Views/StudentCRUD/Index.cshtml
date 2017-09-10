@@ -1,0 +1,52 @@
+﻿@model List<LMSTS.Models.StudentListModel>
+@{
+    ViewBag.Title = "Öğrenci Listesi";
+    Layout = "~/Views/Shared/_TrainerLayout.cshtml";
+}
+
+<h2>Öğrenci Listesi</h2>
+
+@if (TempData["ResultMessage"] != null)
+{
+    <div class="alert alert-success" >
+        @TempData["ResultMessage"];
+    </div>
+}
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+        <th>Adı  </th>
+        <th>Soyadı  </th>
+        <th>Cinsiyeti  </th>
+        <th>Eğitim Branşı  </th>
+        <th>Online  </th>
+        <th>Durumu  </th>
+        <th>Kayıt Tarihi </th>
+        <th>
+            @Html.ActionLink("Yeni Öğrenci Kaydı Ekle", "Edit", null, new { Class = "btn btn-warning btn-xs"})
+        </th>
+    </tr>
+    </thead>
+    <tbody>
+        @{
+            foreach (var student in Model)
+            {
+                <tr>
+                    <td>@student.FirstName</td>
+                    <td>@student.LastName</td>
+                    <td>@student.GenderName</td>
+                    <td>@student.EducationBranchName</td>
+                    <td>@student.IsOnline.ToString()</td>
+                    <td>@student.Status.ToString()</td>
+                    <td>@student.DateOfRegistration.ToShortDateString()</td>
+
+                    <td>
+                        @Html.ActionLink("Öğrenci Bilgilerini Güncelle", "Edit", new { id = student.Id }, new { Class = "btn btn-primary btn-xs"})
+                    </td>
+                   
+                </tr>
+            }
+        }
+    </tbody>
+</table>

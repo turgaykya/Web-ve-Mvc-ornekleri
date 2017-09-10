@@ -1,0 +1,134 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <script src="Scripts/jquery-3.1.1.js"></script>
+
+    <style>
+        .control {
+            border: 1px solid red;
+        }
+    </style>
+
+    <script>
+        $(document).ready(function () {
+
+            $("button[type=button]").on({
+                mouseenter: function () {
+                    $(this).css("background-color", "green")
+                },
+                mouseleave: function () {
+                    $(this).css("background-color", "buttonface")
+                },
+                click: function () {
+
+                    $("input[type=text]").each(function () {
+
+
+                        if ($(this).val() == "") {
+                            $(this).addClass("control")
+                        } else {
+                            $(this).removeClass("control")
+                        }
+                    })
+
+
+                    if ($("#sozlesme-checkbox").prop("checked") == false) {
+                        alert("kullanım koşullarını kabul etmeniz zorunludur.")
+                    }
+                    else {
+                        var isFull = true
+                        $("input[type=text]").each(function () {
+
+                            if ($(this).val() == "") {
+                                $(this).addClass("control")
+                                isFull = false
+                            } else {
+                                $(this).removeClass("control")
+                            }
+                        })
+                        if (isFull === true && $("#sozlesme-checkbox").prop("checked") === true) {
+                            alert("Kayıt Başarılı")
+                        }
+                        else if (isFull===false) {
+                            alert("Alanlar boş bırakılamaz...")
+                        }
+                    }
+
+                    if ($("select").val() == null) {
+                        $("select").addClass("control")
+                    }
+                    else {
+                        $("select").removeClass("control")
+
+                    }
+
+                }
+            })
+        })
+
+
+
+    </script>
+
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <div class="form-group">
+                    <label class="control-label" for="form-group-input">Kayıt Formu</label>
+                </div>
+
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Adı" />
+                </div>
+
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Soyadı" />
+                </div>
+
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Telefon" />
+                </div>
+
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Enter email" />
+                </div>
+
+                <div class="form-group">
+                    <select class="form-control">
+                        <option selected disabled value="">Şehir seçiniz</option>
+                        <option value="1">İzmir</option>
+                        <option value="2">İstanbul</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <p style="text-align: justify">
+                        Cras rhoncus aliquet porta. Proin rhoncus, odio et sodales porta, quam tortor consectetur nulla, sit amet tristique turpis quam at orci. Duis vitae felis urna. Suspendisse posuere finibus purus, nec maximus ante tincidunt eu. Ut euismod mollis libero et posuere. Mauris ac imperdiet erat. Donec in luctus arcu, sed rutrum urna. Donec condimentum purus in facilisis vulputate. Nulla porta lorem nunc, sit amet bibendum velit congue non. Donec vestibulum est.
+                    </p>
+                </div>
+
+                <div class="form-group">
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" id="sozlesme-checkbox" />
+                            Okudum Onaylıyorum
+                        </label>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <button type="button" class="form-control">Submit</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="Scripts/jquery-3.1.1.js"></script>
+    <script src="Scripts/bootstrap.js"></script>
+</body>
+</html>
